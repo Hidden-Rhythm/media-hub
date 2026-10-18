@@ -1,0 +1,2867 @@
+[
+  {
+    "name": "9XM",
+    "id": "9XM.in@SD",
+    "site_id": "77447"
+  },
+  {
+    "name": "Reporter",
+    "id": "ReporterTV.in@SD",
+    "site_id": "85096"
+  },
+  {
+    "name": "News24",
+    "id": "News24.in@SD",
+    "site_id": "90009"
+  },
+  {
+    "name": "9X Jhakaas",
+    "id": "9XJhakaas.in@SD",
+    "site_id": "90012"
+  },
+  {
+    "name": "Discovery Channel",
+    "id": "DiscoveryChannel.in@SD",
+    "site_id": "100869"
+  },
+  {
+    "name": "Sun TV",
+    "id": "SunTV.in@SD",
+    "site_id": "117852"
+  },
+  {
+    "name": "Zee Bangla",
+    "id": "ZeeBangla.in@SD",
+    "site_id": "117853"
+  },
+  {
+    "name": "TLC HD",
+    "id": "TLC.in@HD",
+    "site_id": "123500"
+  },
+  {
+    "name": "MBC TV",
+    "id": "MBCTV.in@SD",
+    "site_id": "135691"
+  },
+  {
+    "name": "B4U Movies",
+    "id": "B4UMovies.in@India",
+    "site_id": "140063"
+  },
+  {
+    "name": "Star Movies",
+    "id": "StarMovies.in@SD",
+    "site_id": "140069"
+  },
+  {
+    "name": "RT",
+    "id": "RTIndia.in@HD",
+    "site_id": "142401"
+  },
+  {
+    "name": "10TV",
+    "id": "10TV.in@SD",
+    "site_id": "142495"
+  },
+  {
+    "name": "9X Tashan",
+    "id": "9XTashan.in@SD",
+    "site_id": "142504"
+  },
+  {
+    "name": "Aadinath",
+    "id": "AadinathTV.in@SD",
+    "site_id": "142505"
+  },
+  {
+    "name": "Aaj Tak",
+    "id": "AajTak.in@SD",
+    "site_id": "142507"
+  },
+  {
+    "name": "Aakash Aath",
+    "id": "AakaashAath.in@SD",
+    "site_id": "142510"
+  },
+  {
+    "name": "Aastha Bhajan",
+    "id": "AasthaBhajan.in@SD",
+    "site_id": "142514"
+  },
+  {
+    "name": "ABN Andhra Jyothy",
+    "id": "ABNAndhraJyoti.in@SD",
+    "site_id": "142517"
+  },
+  {
+    "name": "ABP Ananda",
+    "id": "ABPAnanda.in@SD",
+    "site_id": "142518"
+  },
+  {
+    "name": "ABP Asmita",
+    "id": "ABPAsmita.in@SD",
+    "site_id": "142519"
+  },
+  {
+    "name": "ABP Majha",
+    "id": "ABPMajha.in@SD",
+    "site_id": "142521"
+  },
+  {
+    "name": "Adithya TV",
+    "id": "AdithyaTV.in@SD",
+    "site_id": "142548"
+  },
+  {
+    "name": "Alankar",
+    "id": "AlankarTV.in@SD",
+    "site_id": "142630"
+  },
+  {
+    "name": "Amrita TV",
+    "id": "AmritaTV.in@SD",
+    "site_id": "142632"
+  },
+  {
+    "name": "Unite8 Sports 2",
+    "id": "Unite8Sports2.in@SD",
+    "site_id": "142635"
+  },
+  {
+    "name": "Unite8 Sports 2 HD",
+    "id": "Unite8Sports2.in@HD",
+    "site_id": "142636"
+  },
+  {
+    "name": "& Pictures",
+    "id": "Andpictures.in@SD",
+    "site_id": "142637"
+  },
+  {
+    "name": "& Pictures HD",
+    "id": "Andpictures.in@HD",
+    "site_id": "142638"
+  },
+  {
+    "name": "&TV",
+    "id": "AndTV.in@SD",
+    "site_id": "142640"
+  },
+  {
+    "name": "&TV HD",
+    "id": "AndTV.in@HD",
+    "site_id": "142641"
+  },
+  {
+    "name": "Aradana TV",
+    "id": "AradanaTV.in@SD",
+    "site_id": "142649"
+  },
+  {
+    "name": "Argus",
+    "id": "ArgusNews.in@SD",
+    "site_id": "142650"
+  },
+  {
+    "name": "Asianet",
+    "id": "Asianet.in@SD",
+    "site_id": "142668"
+  },
+  {
+    "name": "Asianet HD",
+    "id": "Asianet.in@HD",
+    "site_id": "142673"
+  },
+  {
+    "name": "Asianet Movies",
+    "id": "AsianetMovies.in@SD",
+    "site_id": "142677"
+  },
+  {
+    "name": "Asianet News",
+    "id": "AsianetNews.in@SD",
+    "site_id": "142679"
+  },
+  {
+    "name": "Asianet Plus",
+    "id": "AsianetPlus.in",
+    "site_id": "142680"
+  },
+  {
+    "name": "Asianet Suvarna News",
+    "id": "AsianetSuvarnaNews.in@SD",
+    "site_id": "142682"
+  },
+  {
+    "name": "Assam Talks",
+    "id": "AssamTalks.in@SD",
+    "site_id": "142683"
+  },
+  {
+    "name": "Ayush TV",
+    "id": "AyushTV.in@SD",
+    "site_id": "142692"
+  },
+  {
+    "name": "B4U Bhojpuri",
+    "id": "B4UBhojpuri.in@SD",
+    "site_id": "142694"
+  },
+  {
+    "name": "B4U Kadak",
+    "id": "B4UKadak.in@SD",
+    "site_id": "142695"
+  },
+  {
+    "name": "Balle Balle",
+    "id": "BalleBalle.in@SD",
+    "site_id": "142697"
+  },
+  {
+    "name": "Bhakti TV",
+    "id": "BhakthiTV.in@SD",
+    "site_id": "142709"
+  },
+  {
+    "name": "Bharat 24",
+    "id": "Bharat24.in@SD",
+    "site_id": "142710"
+  },
+  {
+    "name": "Bharat Express",
+    "id": "BharatExpress.in@SD",
+    "site_id": "142711"
+  },
+  {
+    "name": "Bhojpuri Cinema",
+    "id": "BhojpuriCinema.in@SD",
+    "site_id": "142713"
+  },
+  {
+    "name": "BIG Magic",
+    "id": "BigMagic.in@SD",
+    "site_id": "142715"
+  },
+  {
+    "name": "Calcutta News",
+    "id": "AKDCalcuttaNews.in@SD",
+    "site_id": "142725"
+  },
+  {
+    "name": "Chardikla Time TV",
+    "id": "ChardiklaTimeTV.in@SD",
+    "site_id": "142736"
+  },
+  {
+    "name": "Chintu TV",
+    "id": "ChintuTV.in@SD",
+    "site_id": "142737"
+  },
+  {
+    "name": "Chithiram",
+    "id": "Chithiram.in@SD",
+    "site_id": "142738"
+  },
+  {
+    "name": "Chutti TV",
+    "id": "ChuttiTV.in@SD",
+    "site_id": "142739"
+  },
+  {
+    "name": "CNBC Bajar",
+    "id": "CNBCBajar.in@SD",
+    "site_id": "142742"
+  },
+  {
+    "name": "CNBC TV18",
+    "id": "CNBCTV18.in@SD",
+    "site_id": "142743"
+  },
+  {
+    "name": "CNBC TV18 Prime",
+    "id": "CNBCTV18PrimeHD.in@SD",
+    "site_id": "142744"
+  },
+  {
+    "name": "CNBC-Awaaz",
+    "id": "CNBCAwaaz.in@SD",
+    "site_id": "142745"
+  },
+  {
+    "name": "CNN-News18",
+    "id": "CNNNews18.in@SD",
+    "site_id": "142747"
+  },
+  {
+    "name": "Colors Bangla Cinema",
+    "id": "ColorsBanglaCinema.in@SD",
+    "site_id": "142748"
+  },
+  {
+    "name": "Colors Cineplex Bollywood",
+    "id": "ColorsCineplexBollywood.in@SD",
+    "site_id": "142749"
+  },
+  {
+    "name": "Colors Cineplex Superhits",
+    "id": "ColorsCineplexSuperhits.in@SD",
+    "site_id": "142750"
+  },
+  {
+    "name": "Colors Gujarati Cinema",
+    "id": "ColorsGujaratiCinema.in@SD",
+    "site_id": "142751"
+  },
+  {
+    "name": "Colors Kannada Cinema",
+    "id": "ColorsKannadaCinema.in@SD",
+    "site_id": "142752"
+  },
+  {
+    "name": "CTVN AKD Plus",
+    "id": "CTVNAKDPlus.in@SD",
+    "site_id": "142754"
+  },
+  {
+    "name": "Dangal",
+    "id": "DangalTV.in@SD",
+    "site_id": "142771"
+  },
+  {
+    "name": "Dangal 2",
+    "id": "Dangal2.in@SD",
+    "site_id": "142772"
+  },
+  {
+    "name": "Darshana TV",
+    "id": "DarshanaTV.in@SD",
+    "site_id": "142774"
+  },
+  {
+    "name": "DD Arun Prabha",
+    "id": "DDArunPrabha.in@SD",
+    "site_id": "142776"
+  },
+  {
+    "name": "DD Assam",
+    "id": "DDAssam.in@SD",
+    "site_id": "142777"
+  },
+  {
+    "name": "DD Bangla",
+    "id": "DDBangla.in@SD",
+    "site_id": "142778"
+  },
+  {
+    "name": "DD Bharati",
+    "id": "DDBharati.in@SD",
+    "site_id": "142779"
+  },
+  {
+    "name": "DD Bihar",
+    "id": "DDBihar.in@SD",
+    "site_id": "142780"
+  },
+  {
+    "name": "DD Chandana",
+    "id": "DDChandana.in@SD",
+    "site_id": "142781"
+  },
+  {
+    "name": "DD Girnar",
+    "id": "DDGirnar.in@SD",
+    "site_id": "142782"
+  },
+  {
+    "name": "DD GOA",
+    "id": "DDGoa.in@SD",
+    "site_id": "142783"
+  },
+  {
+    "name": "DD Haryana",
+    "id": "DDHaryana.in@SD",
+    "site_id": "142784"
+  },
+  {
+    "name": "DD Kashir",
+    "id": "DDKashir.in@SD",
+    "site_id": "142788"
+  },
+  {
+    "name": "DD Kisan",
+    "id": "DDKisan.in@SD",
+    "site_id": "142789"
+  },
+  {
+    "name": "DD Madhya Pradesh",
+    "id": "DDMadhyaPradesh.in@SD",
+    "site_id": "142790"
+  },
+  {
+    "name": "DD Malayalam",
+    "id": "DDMalayalam.in@SD",
+    "site_id": "142791"
+  },
+  {
+    "name": "DD Manipur",
+    "id": "DDManipur.in@SD",
+    "site_id": "142792"
+  },
+  {
+    "name": "DD MEGHALAYA",
+    "id": "DDMeghalaya.in@SD",
+    "site_id": "142793"
+  },
+  {
+    "name": "DD MIZORAM",
+    "id": "DDMizoram.in@SD",
+    "site_id": "142794"
+  },
+  {
+    "name": "DD NAGALAND",
+    "id": "DDNagaland.in@SD",
+    "site_id": "142795"
+  },
+  {
+    "name": "DD Oriya",
+    "id": "DDOdia.in@SD",
+    "site_id": "142796"
+  },
+  {
+    "name": "DD TAMIL",
+    "id": "DDTamil.in@SD",
+    "site_id": "142797"
+  },
+  {
+    "name": "DD Punjabi",
+    "id": "DDPunjabi.in@SD",
+    "site_id": "142800"
+  },
+  {
+    "name": "DD Rajasthan",
+    "id": "DDRajasthan.in@SD",
+    "site_id": "142801"
+  },
+  {
+    "name": "DD Sahyadri",
+    "id": "DDSahyadri.in@SD",
+    "site_id": "142803"
+  },
+  {
+    "name": "DD Saptagiri",
+    "id": "DDSaptagiri.in@SD",
+    "site_id": "142804"
+  },
+  {
+    "name": "DD UP",
+    "id": "DDUttarPradesh.in@SD",
+    "site_id": "142807"
+  },
+  {
+    "name": "DD Urdu",
+    "id": "DDUrdu.in@SD",
+    "site_id": "142808"
+  },
+  {
+    "name": "DD Uttrakhand",
+    "id": "DDUttarakhand.in@SD",
+    "site_id": "142809"
+  },
+  {
+    "name": "DD Yadagiri",
+    "id": "DDYadagiri.in@SD",
+    "site_id": "142810"
+  },
+  {
+    "name": "Goldmines Movies",
+    "id": "GoldminesMovies.in@SD",
+    "site_id": "142881"
+  },
+  {
+    "name": "Dhoom Music",
+    "id": "DhoomMusic.in@SD",
+    "site_id": "142882"
+  },
+  {
+    "name": "R. Kannada",
+    "id": "RepublicKannada.in@SD",
+    "site_id": "142883"
+  },
+  {
+    "name": "Dish Buzz",
+    "id": "DishBuzz.in@SD",
+    "site_id": "142894"
+  },
+  {
+    "name": "Songdew",
+    "id": "SongdewTV.in@SD",
+    "site_id": "142920"
+  },
+  {
+    "name": "Disney International HD",
+    "id": "DisneyInternationalHD.in@SD",
+    "site_id": "142989"
+  },
+  {
+    "name": "Disney Junior",
+    "id": "DisneyJunior.in@SD",
+    "site_id": "142990"
+  },
+  {
+    "name": "Divya",
+    "id": "ChannelDivya.in@SD",
+    "site_id": "143010"
+  },
+  {
+    "name": "DTamil",
+    "id": "DTamil.in@SD",
+    "site_id": "143012"
+  },
+  {
+    "name": "DY365",
+    "id": "DY365.in@SD",
+    "site_id": "143015"
+  },
+  {
+    "name": "Enterr10 Bangla",
+    "id": "Enterr10Bangla.in@SD",
+    "site_id": "143018"
+  },
+  {
+    "name": "ET Now",
+    "id": "ETNow.in@SD",
+    "site_id": "143021"
+  },
+  {
+    "name": "ET Now Swadesh",
+    "id": "ETNowSwadesh.in@SD",
+    "site_id": "143022"
+  },
+  {
+    "name": "ETV Abhiruchi",
+    "id": "ETVAbhiruchi.in@SD",
+    "site_id": "143023"
+  },
+  {
+    "name": "ETV Andhra Pradesh",
+    "id": "ETVAndhraPradesh.in@SD",
+    "site_id": "143024"
+  },
+  {
+    "name": "ETV Bal Bharat",
+    "id": "ETVBalBharat.in@SD",
+    "site_id": "143025"
+  },
+  {
+    "name": "ETV Cinema",
+    "id": "ETVCinema.in",
+    "site_id": "143026"
+  },
+  {
+    "name": "ETV HD",
+    "id": "ETVTelugu.in@HD",
+    "site_id": "143028"
+  },
+  {
+    "name": "ETV Life",
+    "id": "ETVLife.in@SD",
+    "site_id": "143029"
+  },
+  {
+    "name": "ETV Plus",
+    "id": "ETVPlus.in",
+    "site_id": "143030"
+  },
+  {
+    "name": "ETV Telangana",
+    "id": "ETVTelangana.in@SD",
+    "site_id": "143032"
+  },
+  {
+    "name": "ETV Telugu",
+    "id": "ETVTelugu.in@SD",
+    "site_id": "143033"
+  },
+  {
+    "name": "Fakt Marathi",
+    "id": "FaktMarathi.in@SD",
+    "site_id": "143038"
+  },
+  {
+    "name": "Flowers TV",
+    "id": "FlowersTV.in@SD",
+    "site_id": "143065"
+  },
+  {
+    "name": "Sun Gemini Comedy",
+    "id": "SunGeminiComedy.in@SD",
+    "site_id": "143074"
+  },
+  {
+    "name": "Sun Gemini Life",
+    "id": "SunGeminiLife.in@SD",
+    "site_id": "143075"
+  },
+  {
+    "name": "Sun Gemini Movies",
+    "id": "SunGeminiMovies.in@SD",
+    "site_id": "143076"
+  },
+  {
+    "name": "Sun Gemini Music",
+    "id": "SunGeminiMusic.in@SD",
+    "site_id": "143077"
+  },
+  {
+    "name": "Sun Gemini",
+    "id": "SunGemini.in@SD",
+    "site_id": "143078"
+  },
+  {
+    "name": "Goldmines",
+    "id": "Goldmines.in@SD",
+    "site_id": "143087"
+  },
+  {
+    "name": "Goldmines Bollywood",
+    "id": "GoldminesBollywood.in@SD",
+    "site_id": "143089"
+  },
+  {
+    "name": "Good News Today",
+    "id": "GoodNewsToday.in@SD",
+    "site_id": "143090"
+  },
+  {
+    "name": "Goodness TV",
+    "id": "GoodnessTV.in@SD",
+    "site_id": "143091"
+  },
+  {
+    "name": "Gujarat First",
+    "id": "GujaratFirst.in@SD",
+    "site_id": "143096"
+  },
+  {
+    "name": "Gulistan News",
+    "id": "GulistanNews.in@SD",
+    "site_id": "143097"
+  },
+  {
+    "name": "Gyandarshan",
+    "id": "Gyandarshan.in@SD",
+    "site_id": "143100"
+  },
+  {
+    "name": "Hare Krsna",
+    "id": "HareKrsnaTV.in@SD",
+    "site_id": "143102"
+  },
+  {
+    "name": "HINDU DHARMAM",
+    "id": "HinduDharmam.in@SD",
+    "site_id": "143131"
+  },
+  {
+    "name": "History TV18",
+    "id": "HistoryTV18.in@SD",
+    "site_id": "143132"
+  },
+  {
+    "name": "History TV18 HD",
+    "id": "HistoryTV18.in@HD",
+    "site_id": "143133"
+  },
+  {
+    "name": "HMTV",
+    "id": "HMTV.in@SD",
+    "site_id": "143136"
+  },
+  {
+    "name": "Hungama",
+    "id": "HungamaTV.in@SD",
+    "site_id": "143150"
+  },
+  {
+    "name": "IBC24",
+    "id": "IBC24.in@SD",
+    "site_id": "143156"
+  },
+  {
+    "name": "India News Haryana",
+    "id": "IndiaNewsHaryana.in@SD",
+    "site_id": "143192"
+  },
+  {
+    "name": "INDIA TODAY",
+    "id": "IndiaToday.in@SD",
+    "site_id": "143197"
+  },
+  {
+    "name": "India TV",
+    "id": "IndiaTV.in@SD",
+    "site_id": "143199"
+  },
+  {
+    "name": "Isai Aruvi",
+    "id": "IsaiAruvi.in@SD",
+    "site_id": "143212"
+  },
+  {
+    "name": "Ishwar TV",
+    "id": "IshwarBhaktiTV.in@SD",
+    "site_id": "143213"
+  },
+  {
+    "name": "J Movies",
+    "id": "JMovie.in@SD",
+    "site_id": "143215"
+  },
+  {
+    "name": "Jaihind TV",
+    "id": "JaihindTV.in@SD",
+    "site_id": "143217"
+  },
+  {
+    "name": "Jalsha Movies",
+    "id": "JalshaMovies.in@SD",
+    "site_id": "143218"
+  },
+  {
+    "name": "Jalsha Movies HD",
+    "id": "JalshaMovies.in@HD",
+    "site_id": "143219"
+  },
+  {
+    "name": "Janam TV",
+    "id": "JanamTV.in@SD",
+    "site_id": "143221"
+  },
+  {
+    "name": "Jaya Max",
+    "id": "JayaMax.in@SD",
+    "site_id": "143226"
+  },
+  {
+    "name": "Jaya Plus",
+    "id": "JayaPlus.in@SD",
+    "site_id": "143227"
+  },
+  {
+    "name": "Jaya TV",
+    "id": "JayaTV.in@HD",
+    "site_id": "143228"
+  },
+  {
+    "name": "Jinvani",
+    "id": "JinvaniChannel.in@SD",
+    "site_id": "143230"
+  },
+  {
+    "name": "JK 24x7 News",
+    "id": "JK24x7News.in@SD",
+    "site_id": "143237"
+  },
+  {
+    "name": "Jonack",
+    "id": "Jonack.in@SD",
+    "site_id": "143238"
+  },
+  {
+    "name": "Jothi TV",
+    "id": "JothiTV.in@SD",
+    "site_id": "143239"
+  },
+  {
+    "name": "K News India",
+    "id": "KNewsIndia.in@SD",
+    "site_id": "143244"
+  },
+  {
+    "name": "Kairali News",
+    "id": "KairaliNews.in@SD",
+    "site_id": "143246"
+  },
+  {
+    "name": "Kairali TV",
+    "id": "KairaliTV.in@SD",
+    "site_id": "143247"
+  },
+  {
+    "name": "Kairali We",
+    "id": "KairaliWe.in@SD",
+    "site_id": "143248"
+  },
+  {
+    "name": "Kalaignar TV",
+    "id": "KalaignarTV.in@SD",
+    "site_id": "143249"
+  },
+  {
+    "name": "Kalinga TV",
+    "id": "KalingaTV.in@SD",
+    "site_id": "143250"
+  },
+  {
+    "name": "Kanak News",
+    "id": "KanakNews.in@SD",
+    "site_id": "143252"
+  },
+  {
+    "name": "Kaumudy TV",
+    "id": "KaumudyTV.in@SD",
+    "site_id": "143259"
+  },
+  {
+    "name": "Khabrain Abhi Tak",
+    "id": "KhabrainAbhiTak.in@SD",
+    "site_id": "143262"
+  },
+  {
+    "name": "Khushboo Bangla",
+    "id": "KhushbooBangla.in@SD",
+    "site_id": "143265"
+  },
+  {
+    "name": "Kochu TV",
+    "id": "KochuTV.in@SD",
+    "site_id": "143269"
+  },
+  {
+    "name": "Kolkata TV",
+    "id": "KolkataTV.in@SD",
+    "site_id": "143271"
+  },
+  {
+    "name": "KTV",
+    "id": "KTV.in@SD",
+    "site_id": "143274"
+  },
+  {
+    "name": "Kushi TV",
+    "id": "KushiTV.in@SD",
+    "site_id": "143275"
+  },
+  {
+    "name": "Living India News",
+    "id": "LivingIndiaNews.in@SD",
+    "site_id": "143283"
+  },
+  {
+    "name": "LOKSHAHI MARATHI",
+    "id": "LokshahiNews.in@SD",
+    "site_id": "143284"
+  },
+  {
+    "name": "Madha TV",
+    "id": "MadhaTV.in@SD",
+    "site_id": "143287"
+  },
+  {
+    "name": "Tabbar Hits",
+    "id": "TabbarHits.in",
+    "site_id": "143292"
+  },
+  {
+    "name": "Makkal TV",
+    "id": "MakkalTV.in@SD",
+    "site_id": "143296"
+  },
+  {
+    "name": "Malaimurasu Seithikal",
+    "id": "MalaiMurasuTV.in@SD",
+    "site_id": "143297"
+  },
+  {
+    "name": "Manoranjan Grand",
+    "id": "ManoranjanGrand.in@SD",
+    "site_id": "143302"
+  },
+  {
+    "name": "Manoranjan Movies",
+    "id": "ManoranjanMovies.in@SD",
+    "site_id": "143303"
+  },
+  {
+    "name": "Manoranjan TV",
+    "id": "ManoranjanTV.in@SD",
+    "site_id": "143304"
+  },
+  {
+    "name": "Mathrubhumi News",
+    "id": "MathrubhumiNews.in@SD",
+    "site_id": "143309"
+  },
+  {
+    "name": "Mazhavil Manorama",
+    "id": "MazhavilManorama.in@SD",
+    "site_id": "143310"
+  },
+  {
+    "name": "MediaOne",
+    "id": "MediaOne.in@SD",
+    "site_id": "143345"
+  },
+  {
+    "name": "Mega 24",
+    "id": "Mega24.in@SD",
+    "site_id": "143425"
+  },
+  {
+    "name": "Mega Musiq",
+    "id": "MegaMusiq.in@SD",
+    "site_id": "143532"
+  },
+  {
+    "name": "Mega TV",
+    "id": "MegaTV.in@SD",
+    "site_id": "143533"
+  },
+  {
+    "name": "MH One Dil Se",
+    "id": "MHOneDilSe.in@SD",
+    "site_id": "143536"
+  },
+  {
+    "name": "MH One Shraddha",
+    "id": "MHOneShraddha.in@SD",
+    "site_id": "143538"
+  },
+  {
+    "name": "MHONE",
+    "id": "Mh1Music.in@SD",
+    "site_id": "143539"
+  },
+  {
+    "name": "MH1 News",
+    "id": "Mh1News.in@SD",
+    "site_id": "143540"
+  },
+  {
+    "name": "Mirror Now",
+    "id": "MirrorNow.in@SD",
+    "site_id": "143543"
+  },
+  {
+    "name": "MN+",
+    "id": "MoviesNowPlus.in@SD",
+    "site_id": "143548"
+  },
+  {
+    "name": "MNX",
+    "id": "MNX.in@SD",
+    "site_id": "143549"
+  },
+  {
+    "name": "Movies Now",
+    "id": "MoviesNow.in@SD",
+    "site_id": "143554"
+  },
+  {
+    "name": "MTV",
+    "id": "MTV.in@SD",
+    "site_id": "143558"
+  },
+  {
+    "name": "Murasu",
+    "id": "KalaignarMurasu.in",
+    "site_id": "143561"
+  },
+  {
+    "name": "Music India",
+    "id": "MusicIndia.in@SD",
+    "site_id": "143563"
+  },
+  {
+    "name": "Nambikkai TV",
+    "id": "NambikkaiTV.in@SD",
+    "site_id": "143567"
+  },
+  {
+    "name": "Nat Geo Wild",
+    "id": "NationalGeographicWild.in@SD",
+    "site_id": "143571"
+  },
+  {
+    "name": "Nat Geo Wild HD",
+    "id": "NationalGeographicWild.in@HD",
+    "site_id": "143572"
+  },
+  {
+    "name": "National Geographic Channel",
+    "id": "NationalGeographic.in@SD",
+    "site_id": "143573"
+  },
+  {
+    "name": "National Geographic Channel HD",
+    "id": "NationalGeographic.in@HD",
+    "site_id": "143574"
+  },
+  {
+    "name": "News7",
+    "id": "News7Tamil.in@SD",
+    "site_id": "143578"
+  },
+  {
+    "name": "Nepal 1",
+    "id": "Nepal1.in@SD",
+    "site_id": "143584"
+  },
+  {
+    "name": "Network 10",
+    "id": "Network10.in@SD",
+    "site_id": "143585"
+  },
+  {
+    "name": "News 1st Kannada",
+    "id": "News1st.in@SD",
+    "site_id": "143587"
+  },
+  {
+    "name": "News India 24x7",
+    "id": "NewsIndia24x7.in@SD",
+    "site_id": "143593"
+  },
+  {
+    "name": "News Live",
+    "id": "NewsLive.in@SD",
+    "site_id": "143595"
+  },
+  {
+    "name": "News Nation",
+    "id": "NewsNation.in@SD",
+    "site_id": "143596"
+  },
+  {
+    "name": "News State UK UP",
+    "id": "NewsStateUPUK.in@SD",
+    "site_id": "143601"
+  },
+  {
+    "name": "News Time Bangla",
+    "id": "NewsTimeBangla.in@SD",
+    "site_id": "143602"
+  },
+  {
+    "name": "News18 Assam North East",
+    "id": "News18AssamNorthEast.in@SD",
+    "site_id": "143606"
+  },
+  {
+    "name": "News18 Bangla",
+    "id": "News18Bangla.in@SD",
+    "site_id": "143607"
+  },
+  {
+    "name": "News18 Bihar Jharkhand",
+    "id": "News18BiharJharkhand.in@SD",
+    "site_id": "143608"
+  },
+  {
+    "name": "News18 Gujarati",
+    "id": "News18Gujarati.in@SD",
+    "site_id": "143609"
+  },
+  {
+    "name": "News18 India",
+    "id": "News18India.in@SD",
+    "site_id": "143610"
+  },
+  {
+    "name": "News18 Delhi NCR Jammu Kashmir",
+    "id": "News18DelhiNCRJK.in@SD",
+    "site_id": "143611"
+  },
+  {
+    "name": "News18 Kannada",
+    "id": "News18Kannada.in@SD",
+    "site_id": "143612"
+  },
+  {
+    "name": "News18 Kerala",
+    "id": "News18Kerala.in@SD",
+    "site_id": "143613"
+  },
+  {
+    "name": "News18 Marathi",
+    "id": "News18Marathi.in@SD",
+    "site_id": "143614"
+  },
+  {
+    "name": "News18 Madhya Pradesh Chhattisgarh",
+    "id": "News18MadhyaPradeshChhattisgarh.in@SD",
+    "site_id": "143615"
+  },
+  {
+    "name": "News18 Odia",
+    "id": "News18Odia.in@SD",
+    "site_id": "143616"
+  },
+  {
+    "name": "News18 Punjab Haryana Himachal",
+    "id": "News18PunjabHaryanaHimachal.in@SD",
+    "site_id": "143617"
+  },
+  {
+    "name": "NEWS18 RAJASTHAN",
+    "id": "News18Rajasthan.in@SD",
+    "site_id": "143618"
+  },
+  {
+    "name": "News18 Tamil Nadu",
+    "id": "News18TamilNadu.in@SD",
+    "site_id": "143619"
+  },
+  {
+    "name": "News18 Uttar Pradesh Uttarakhand",
+    "id": "News18UttarPradeshUttarakhand.in@SD",
+    "site_id": "143621"
+  },
+  {
+    "name": "NewsTamil 24x7",
+    "id": "NewsTamil24x7.in@SD",
+    "site_id": "143623"
+  },
+  {
+    "name": "NewsX",
+    "id": "NewsX.in@SD",
+    "site_id": "143624"
+  },
+  {
+    "name": "Nick",
+    "id": "Nickelodeon.in@SD",
+    "site_id": "143625"
+  },
+  {
+    "name": "North East Live",
+    "id": "NortheastLive.in@HD",
+    "site_id": "143633"
+  },
+  {
+    "name": "Oscar Movies Bhojpuri",
+    "id": "OscarMoviesBhojpuri.in@SD",
+    "site_id": "143638"
+  },
+  {
+    "name": "OTV",
+    "id": "OdishaTV.in@SD",
+    "site_id": "143639"
+  },
+  {
+    "name": "Paras Gold One",
+    "id": "ParasGold.in@SD",
+    "site_id": "143642"
+  },
+  {
+    "name": "Pasand",
+    "id": "PasandTV.in@SD",
+    "site_id": "143643"
+  },
+  {
+    "name": "Peace of Mind",
+    "id": "PeaceofMindTV.in@SD",
+    "site_id": "143646"
+  },
+  {
+    "name": "Pitaara",
+    "id": "Pitaara.in@SD",
+    "site_id": "143650"
+  },
+  {
+    "name": "Pogo",
+    "id": "Pogo.in@SD",
+    "site_id": "143663"
+  },
+  {
+    "name": "Polimer News",
+    "id": "PolimerNews.in@SD",
+    "site_id": "143664"
+  },
+  {
+    "name": "Polimer TV",
+    "id": "PolimerTV.in@SD",
+    "site_id": "143665"
+  },
+  {
+    "name": "Power TV",
+    "id": "PowerTV.in@SD",
+    "site_id": "143669"
+  },
+  {
+    "name": "Powervision",
+    "id": "PowervisionTV.in@SD",
+    "site_id": "143670"
+  },
+  {
+    "name": "Prag News",
+    "id": "PragNews.in@SD",
+    "site_id": "143671"
+  },
+  {
+    "name": "Pratidin Time",
+    "id": "PratidinTime.in@SD",
+    "site_id": "143674"
+  },
+  {
+    "name": "Pravah Picture",
+    "id": "PravahPicture.in@SD",
+    "site_id": "143675"
+  },
+  {
+    "name": "Pravah Picture HD",
+    "id": "PravahPicture.in@HD",
+    "site_id": "143676"
+  },
+  {
+    "name": "PTC Chakde",
+    "id": "PTCChakde.in@SD",
+    "site_id": "143681"
+  },
+  {
+    "name": "PTC Music",
+    "id": "PTCMusic.in@SD",
+    "site_id": "143682"
+  },
+  {
+    "name": "PTC News",
+    "id": "PTCNews.in@SD",
+    "site_id": "143683"
+  },
+  {
+    "name": "PTC Punjabi Gold",
+    "id": "PTCPunjabiGold.in@SD",
+    "site_id": "143684"
+  },
+  {
+    "name": "PTC Simran",
+    "id": "PTCSimran.in@SD",
+    "site_id": "143685"
+  },
+  {
+    "name": "Public Movies",
+    "id": "PublicMovies.in@SD",
+    "site_id": "143686"
+  },
+  {
+    "name": "Public Music",
+    "id": "PublicMusic.in@SD",
+    "site_id": "143687"
+  },
+  {
+    "name": "Public TV",
+    "id": "PublicTV.in@SD",
+    "site_id": "143688"
+  },
+  {
+    "name": "Puthiya Thalaimurai",
+    "id": "PuthiyaThalaimurai.in@SD",
+    "site_id": "143692"
+  },
+  {
+    "name": "Puthu Yugam",
+    "id": "PuthuyugamTV.in@SD",
+    "site_id": "143693"
+  },
+  {
+    "name": "R. Bangla",
+    "id": "RepublicBangla.in@SD",
+    "site_id": "143697"
+  },
+  {
+    "name": "Raj Digital Plus",
+    "id": "RajDigitalPlus.in@SD",
+    "site_id": "143704"
+  },
+  {
+    "name": "Raj Musix Kannada",
+    "id": "RajMusixKannada.in@SD",
+    "site_id": "143705"
+  },
+  {
+    "name": "Raj Musix Malayalam",
+    "id": "RajMusixMalayalam.in@SD",
+    "site_id": "143706"
+  },
+  {
+    "name": "Raj Musix Tamil",
+    "id": "RajMusixTamil.in@SD",
+    "site_id": "143707"
+  },
+  {
+    "name": "Raj Musix Telugu",
+    "id": "RajMusixTelugu.in@SD",
+    "site_id": "143708"
+  },
+  {
+    "name": "Raj News",
+    "id": "RajNews.in@SD",
+    "site_id": "143709"
+  },
+  {
+    "name": "Raj News Kannada",
+    "id": "RajNewsKannada.in@SD",
+    "site_id": "143710"
+  },
+  {
+    "name": "Raj News Malayalam",
+    "id": "RajNewsMalayalam.in@SD",
+    "site_id": "143711"
+  },
+  {
+    "name": "Raj News Telugu",
+    "id": "RajNewsTelugu.in@SD",
+    "site_id": "143712"
+  },
+  {
+    "name": "Sanskar",
+    "id": "SanskarTV.in@SD",
+    "site_id": "143713"
+  },
+  {
+    "name": "Raj TV",
+    "id": "RajTV.in@SD",
+    "site_id": "143715"
+  },
+  {
+    "name": "Ramdhenu",
+    "id": "Ramdhenu.in@SD",
+    "site_id": "143717"
+  },
+  {
+    "name": "Rang",
+    "id": "Rang.in@SD",
+    "site_id": "143718"
+  },
+  {
+    "name": "Rengoni TV",
+    "id": "Rengoni.in@SD",
+    "site_id": "143722"
+  },
+  {
+    "name": "Republic TV",
+    "id": "RepublicTV.in@SD",
+    "site_id": "143723"
+  },
+  {
+    "name": "Republic Bharat",
+    "id": "RepublicBharat.in@SD",
+    "site_id": "143724"
+  },
+  {
+    "name": "Romedy Now",
+    "id": "RomedyNow.in@SD",
+    "site_id": "143729"
+  },
+  {
+    "name": "Rupasi Bangla",
+    "id": "RupasiBangla.in@SD",
+    "site_id": "143733"
+  },
+  {
+    "name": "Saam TV",
+    "id": "SaamTV.in@SD",
+    "site_id": "143735"
+  },
+  {
+    "name": "Sadhna TV",
+    "id": "SadhnaTV.in@SD",
+    "site_id": "143736"
+  },
+  {
+    "name": "Safari TV",
+    "id": "SafariTV.in@SD",
+    "site_id": "143739"
+  },
+  {
+    "name": "Sai TV",
+    "id": "SaiTV.in@SD",
+    "site_id": "143741"
+  },
+  {
+    "name": "Sakshi TV",
+    "id": "SakshiTV.in@SD",
+    "site_id": "143744"
+  },
+  {
+    "name": "Sandesh News",
+    "id": "SandeshNews.in@SD",
+    "site_id": "143755"
+  },
+  {
+    "name": "Sangeet Bangla",
+    "id": "SangeetBangla.in@SD",
+    "site_id": "143756"
+  },
+  {
+    "name": "Sangeet Bhojpuri",
+    "id": "SangeetBhojpuri.in@SD",
+    "site_id": "143757"
+  },
+  {
+    "name": "Sansad TV 1",
+    "id": "SansadTV1.in@SD",
+    "site_id": "143760"
+  },
+  {
+    "name": "Sansad TV 2 HD",
+    "id": "SansadTV2.in@HD",
+    "site_id": "143761"
+  },
+  {
+    "name": "Santvani TV",
+    "id": "SantvaniChannel.in@SD",
+    "site_id": "143763"
+  },
+  {
+    "name": "Sathiyam TV",
+    "id": "SathiyamTV.in@SD",
+    "site_id": "143765"
+  },
+  {
+    "name": "Satsang",
+    "id": "SatsangTV.in@SD",
+    "site_id": "143766"
+  },
+  {
+    "name": "Seithigal",
+    "id": "KalaignarSeithigal.in@SD",
+    "site_id": "143769"
+  },
+  {
+    "name": "Shalom TV",
+    "id": "Shalom.in@Global",
+    "site_id": "143774"
+  },
+  {
+    "name": "Shemaroo Marathibana",
+    "id": "ShemarooMarathiBana.in@SD",
+    "site_id": "143777"
+  },
+  {
+    "name": "Shemaroo TV",
+    "id": "ShemarooTV.in@SD",
+    "site_id": "143778"
+  },
+  {
+    "name": "Shemaroo Umang",
+    "id": "ShemarooUmang.in@SD",
+    "site_id": "143779"
+  },
+  {
+    "name": "Shubh TV",
+    "id": "ShubhTV.in@SD",
+    "site_id": "143783"
+  },
+  {
+    "name": "Siri Kannada",
+    "id": "SiriKannada.in@SD",
+    "site_id": "143790"
+  },
+  {
+    "name": "Sirippoli",
+    "id": "SirippoliTV.in@SD",
+    "site_id": "143791"
+  },
+  {
+    "name": "SONY BBC Earth",
+    "id": "SonyBBCEarth.in@SD",
+    "site_id": "143799"
+  },
+  {
+    "name": "SONY BBC Earth HD",
+    "id": "SonyBBCEarth.in@HD",
+    "site_id": "143800"
+  },
+  {
+    "name": "SONY MAX 2",
+    "id": "SonyMax2.in@SD",
+    "site_id": "143801"
+  },
+  {
+    "name": "Sony Pix",
+    "id": "SonyPix.in@SD",
+    "site_id": "143802"
+  },
+  {
+    "name": "SONY PIX HD",
+    "id": "SonyPix.in@HD",
+    "site_id": "143803"
+  },
+  {
+    "name": "Sony Sports Ten 4 Tamil",
+    "id": "SonySportsTen4.in@Tamil",
+    "site_id": "143805"
+  },
+  {
+    "name": "Star Sports 2 Hindi",
+    "id": "StarSports2Hindi.in@SD",
+    "site_id": "143807"
+  },
+  {
+    "name": "Star Sports 2 Hindi HD",
+    "id": "StarSports2Hindi.in@HD",
+    "site_id": "143808"
+  },
+  {
+    "name": "Star Sports Khel",
+    "id": "StarSportsKhel.in@SD",
+    "site_id": "143809"
+  },
+  {
+    "name": "Star Gold 2",
+    "id": "StarGold2.in@SD",
+    "site_id": "143814"
+  },
+  {
+    "name": "Star Gold HD",
+    "id": "StarGold.in@HD",
+    "site_id": "143815"
+  },
+  {
+    "name": "Star Gold Select",
+    "id": "StarGoldSelect.in@SD",
+    "site_id": "143816"
+  },
+  {
+    "name": "Star Gold Select HD",
+    "id": "StarGoldSelect.in@HD",
+    "site_id": "143817"
+  },
+  {
+    "name": "Star Jalsha",
+    "id": "StarJalsha.in@SD",
+    "site_id": "143818"
+  },
+  {
+    "name": "Star Jalsha HD",
+    "id": "StarJalsha.in@HD",
+    "site_id": "143819"
+  },
+  {
+    "name": "Star Kiran",
+    "id": "StarKiran.in@SD",
+    "site_id": "143820"
+  },
+  {
+    "name": "Star Maa",
+    "id": "StarMaa.in@SD",
+    "site_id": "143821"
+  },
+  {
+    "name": "Star Maa Gold",
+    "id": "StarMaaGold.in@SD",
+    "site_id": "143822"
+  },
+  {
+    "name": "Star Maa Movies",
+    "id": "StarMaaMovies.in@SD",
+    "site_id": "143825"
+  },
+  {
+    "name": "Star Maa Movies HD",
+    "id": "StarMaaMovies.in@HD",
+    "site_id": "143826"
+  },
+  {
+    "name": "Star Maa Music",
+    "id": "StarMaaMusic.in@SD",
+    "site_id": "143828"
+  },
+  {
+    "name": "Star Movies HD",
+    "id": "StarMovies.in@HD",
+    "site_id": "143829"
+  },
+  {
+    "name": "Star Movies Select HD",
+    "id": "StarMoviesSelect.in@HD",
+    "site_id": "143830"
+  },
+  {
+    "name": "STAR PLUS",
+    "id": "StarPlus.in@SD",
+    "site_id": "143831"
+  },
+  {
+    "name": "STAR PLUS HD",
+    "id": "StarPlus.in@HD",
+    "site_id": "143832"
+  },
+  {
+    "name": "Star Pravah",
+    "id": "StarPravah.in@SD",
+    "site_id": "143833"
+  },
+  {
+    "name": "Star Pravah HD",
+    "id": "StarPravah.in@HD",
+    "site_id": "143834"
+  },
+  {
+    "name": "Star Sports 1",
+    "id": "StarSports1.in@SD",
+    "site_id": "143835"
+  },
+  {
+    "name": "Star Sports 1 HD",
+    "id": "StarSports1.in@HD",
+    "site_id": "143837"
+  },
+  {
+    "name": "Star Sports 1 HD Hindi",
+    "id": "StarSports1Hindi.in@HD",
+    "site_id": "143838"
+  },
+  {
+    "name": "Star Sports 1 Hindi",
+    "id": "StarSports1Hindi.in@SD",
+    "site_id": "143839"
+  },
+  {
+    "name": "Star Sports 1 Kannada",
+    "id": "StarSports1Kannada.in@SD",
+    "site_id": "143840"
+  },
+  {
+    "name": "Star Sports 1 Tamil",
+    "id": "StarSports1Tamil.in@SD",
+    "site_id": "143842"
+  },
+  {
+    "name": "Star Sports 1 Telugu",
+    "id": "StarSports1Telugu.in@SD",
+    "site_id": "143843"
+  },
+  {
+    "name": "Star Sports 2",
+    "id": "StarSports2.in@SD",
+    "site_id": "143844"
+  },
+  {
+    "name": "Star Sports 2 HD",
+    "id": "StarSports2.in@HD",
+    "site_id": "143845"
+  },
+  {
+    "name": "Star Sports 3",
+    "id": "StarSports3.in@SD",
+    "site_id": "143846"
+  },
+  {
+    "name": "Star Sports 2 Kannada",
+    "id": "StarSports2Kannada.in@SD",
+    "site_id": "143847"
+  },
+  {
+    "name": "Star Sports Select 1",
+    "id": "StarSportsSelect1.in@SD",
+    "site_id": "143848"
+  },
+  {
+    "name": "Star Sports Select 1 HD",
+    "id": "StarSportsSelect1.in@HD",
+    "site_id": "143849"
+  },
+  {
+    "name": "Star Sports Select 2",
+    "id": "StarSportsSelect2.in@SD",
+    "site_id": "143850"
+  },
+  {
+    "name": "Star Sports Select 2 HD",
+    "id": "StarSportsSelect2.in@HD",
+    "site_id": "143851"
+  },
+  {
+    "name": "Star Suvarna",
+    "id": "StarSuvarna.in@SD",
+    "site_id": "143852"
+  },
+  {
+    "name": "Star Suvarna HD",
+    "id": "StarSuvarna.in@HD",
+    "site_id": "143853"
+  },
+  {
+    "name": "Star Suvarna Plus",
+    "id": "StarSuvarnaPlus.in@SD",
+    "site_id": "143854"
+  },
+  {
+    "name": "Star Utsav Movies",
+    "id": "StarUtsavMovies.in@SD",
+    "site_id": "143856"
+  },
+  {
+    "name": "Subhavaartha",
+    "id": "SubhavaarthaTV.in@SD",
+    "site_id": "143869"
+  },
+  {
+    "name": "Sudarshan News",
+    "id": "SudarshanNews.in@SD",
+    "site_id": "143870"
+  },
+  {
+    "name": "Sun Bangla",
+    "id": "SunBangla.in@SD",
+    "site_id": "143871"
+  },
+  {
+    "name": "Sun Life",
+    "id": "SunLife.in@SD",
+    "site_id": "143873"
+  },
+  {
+    "name": "SUN MARATHI",
+    "id": "SunMarathi.in@SD",
+    "site_id": "143875"
+  },
+  {
+    "name": "Sun Music",
+    "id": "SunMusic.in@SD",
+    "site_id": "143876"
+  },
+  {
+    "name": "Sun News",
+    "id": "SunNews.in@SD",
+    "site_id": "143877"
+  },
+  {
+    "name": "Super Hungama",
+    "id": "SuperHungama.in@SD",
+    "site_id": "143883"
+  },
+  {
+    "name": "Sun Surya Comedy",
+    "id": "SunSuryaComedy.in@SD",
+    "site_id": "143884"
+  },
+  {
+    "name": "Sun Surya Movies",
+    "id": "SunSuryaMovies.in@SD",
+    "site_id": "143885"
+  },
+  {
+    "name": "Sun Surya Music",
+    "id": "SunSuryaMusic.in@SD",
+    "site_id": "143886"
+  },
+  {
+    "name": "Sun Surya",
+    "id": "SunSurya.in@SD",
+    "site_id": "143888"
+  },
+  {
+    "name": "SVBC",
+    "id": "SVBC.in@SD",
+    "site_id": "143889"
+  },
+  {
+    "name": "SVBC 2",
+    "id": "SVBC2.in@SD",
+    "site_id": "143890"
+  },
+  {
+    "name": "T News",
+    "id": "TNews.in@SD",
+    "site_id": "143919"
+  },
+  {
+    "name": "Tarang Music",
+    "id": "TarangMusic.in@SD",
+    "site_id": "143926"
+  },
+  {
+    "name": "Tarang",
+    "id": "TarangTV.in@SD",
+    "site_id": "143927"
+  },
+  {
+    "name": "TheQ",
+    "id": "TheQIndia.us@SD",
+    "site_id": "144002"
+  },
+  {
+    "name": "Times Now",
+    "id": "TimesNow.in@SD",
+    "site_id": "144006"
+  },
+  {
+    "name": "Times Now Navbharat",
+    "id": "TimesNowNavbharat.in@SD",
+    "site_id": "144007"
+  },
+  {
+    "name": "Times Now World HD",
+    "id": "TimesNowWorld.in@SD",
+    "site_id": "144008"
+  },
+  {
+    "name": "Travel XP",
+    "id": "Travelxp.in@SD",
+    "site_id": "144014"
+  },
+  {
+    "name": "Travel XP HD",
+    "id": "Travelxp.in@HD",
+    "site_id": "144015"
+  },
+  {
+    "name": "TV5 Kannada",
+    "id": "TV5Kannada.in@SD",
+    "site_id": "144024"
+  },
+  {
+    "name": "TV5 Telugu",
+    "id": "TV5News.in@SD",
+    "site_id": "144025"
+  },
+  {
+    "name": "TV9 Bangla",
+    "id": "TV9Bangla.in@SD",
+    "site_id": "144026"
+  },
+  {
+    "name": "TV9 Bharatvarsh",
+    "id": "TV9Bharatvarsh.in@SD",
+    "site_id": "144027"
+  },
+  {
+    "name": "TV9 Gujarati",
+    "id": "TV9Gujarati.in@SD",
+    "site_id": "144028"
+  },
+  {
+    "name": "TV9 Kannada",
+    "id": "TV9Kannada.in@SD",
+    "site_id": "144029"
+  },
+  {
+    "name": "TV9 Marathi",
+    "id": "TV9Marathi.in@SD",
+    "site_id": "144030"
+  },
+  {
+    "name": "TV9 Telugu",
+    "id": "TV9Telugu.in@SD",
+    "site_id": "144031"
+  },
+  {
+    "name": "Twenty Four",
+    "id": "TwentyFourNews.in@SD",
+    "site_id": "144032"
+  },
+  {
+    "name": "Sun Udaya Comedy",
+    "id": "SunUdayaComedy.in@SD",
+    "site_id": "144039"
+  },
+  {
+    "name": "Sun Udaya Movies",
+    "id": "SunUdayaMovies.in@SD",
+    "site_id": "144040"
+  },
+  {
+    "name": "Sun Udaya Music",
+    "id": "SunUdayaMusic.in@SD",
+    "site_id": "144041"
+  },
+  {
+    "name": "Sun Udaya",
+    "id": "SunUdaya.in@SD",
+    "site_id": "144042"
+  },
+  {
+    "name": "V6 News",
+    "id": "V6News.in@SD",
+    "site_id": "144047"
+  },
+  {
+    "name": "Vasanth TV",
+    "id": "VasanthTV.in@SD",
+    "site_id": "144068"
+  },
+  {
+    "name": "Vedic",
+    "id": "Vedic.in@SD",
+    "site_id": "144069"
+  },
+  {
+    "name": "Velicham TV",
+    "id": "VelichamTV.in@SD",
+    "site_id": "144070"
+  },
+  {
+    "name": "Star Vijay HD",
+    "id": "StarVijay.in@HD",
+    "site_id": "144075"
+  },
+  {
+    "name": "Star Vijay Super",
+    "id": "VijaySuper.in@SD",
+    "site_id": "144077"
+  },
+  {
+    "name": "Vijay Takkar",
+    "id": "VijayTakkar.in@SD",
+    "site_id": "144078"
+  },
+  {
+    "name": "Star Vijay",
+    "id": "StarVijay.in@SD",
+    "site_id": "144079"
+  },
+  {
+    "name": "Vissa TV",
+    "id": "VissaTV.in@SD",
+    "site_id": "144081"
+  },
+  {
+    "name": "VTV Gujarati",
+    "id": "VTVNews.in@SD",
+    "site_id": "144083"
+  },
+  {
+    "name": "WION",
+    "id": "WION.in@SD",
+    "site_id": "144087"
+  },
+  {
+    "name": "Zee Bihar Jharkhand",
+    "id": "ZeeBiharJharkhand.in@SD",
+    "site_id": "144153"
+  },
+  {
+    "name": "Zee Biskope",
+    "id": "ZeeBiskope.in@SD",
+    "site_id": "144209"
+  },
+  {
+    "name": "Zee 24 Ghanta",
+    "id": "Zee24Ghanta.in@SD",
+    "site_id": "144431"
+  },
+  {
+    "name": "Zee 24 Kalak",
+    "id": "Zee24Kalak.in@SD",
+    "site_id": "144432"
+  },
+  {
+    "name": "Zee 24 Taas",
+    "id": "Zee24Taas.in@SD",
+    "site_id": "144433"
+  },
+  {
+    "name": "Anmol TV",
+    "id": "AnmolTV.in@SD",
+    "site_id": "144435"
+  },
+  {
+    "name": "Anmol Cinema",
+    "id": "AnmolCinema.in@SD",
+    "site_id": "144436"
+  },
+  {
+    "name": "Zee Bangla Sonar",
+    "id": "ZeeBanglaSonar.in@SD",
+    "site_id": "144437"
+  },
+  {
+    "name": "Zee Bollywood",
+    "id": "ZeeBollywood.in@SD",
+    "site_id": "144438"
+  },
+  {
+    "name": "Zee Business",
+    "id": "ZeeBusiness.in@SD",
+    "site_id": "144439"
+  },
+  {
+    "name": "Unite8 Sports 1",
+    "id": "Unite8Sports1.in@SD",
+    "site_id": "144440"
+  },
+  {
+    "name": "Unite8 Sports 1 HD",
+    "id": "Unite8Sports1.in@HD",
+    "site_id": "144441"
+  },
+  {
+    "name": "Zee Cinema HD",
+    "id": "ZeeCinema.in@HD",
+    "site_id": "144443"
+  },
+  {
+    "name": "Zee Cinemalu",
+    "id": "ZeeCinemalu.in@SD",
+    "site_id": "144445"
+  },
+  {
+    "name": "Zee Cinemalu HD",
+    "id": "ZeeCinemalu.in@HD",
+    "site_id": "144446"
+  },
+  {
+    "name": "Zee Classic",
+    "id": "ZeeClassic.in@SD",
+    "site_id": "144447"
+  },
+  {
+    "name": "Zee Delhi NCR Haryana",
+    "id": "ZeeDelhiNCRHaryana.in@SD",
+    "site_id": "144448"
+  },
+  {
+    "name": "Anmol Cinema 2",
+    "id": "AnmolCinema2.in@SD",
+    "site_id": "144449"
+  },
+  {
+    "name": "Zee Bharat",
+    "id": "ZeeBharat.in@SD",
+    "site_id": "144450"
+  },
+  {
+    "name": "Zee Kannada",
+    "id": "ZeeKannada.in@SD",
+    "site_id": "144451"
+  },
+  {
+    "name": "Zee Kannada HD",
+    "id": "ZeeKannada.in@HD",
+    "site_id": "144452"
+  },
+  {
+    "name": "Zee Keralam",
+    "id": "ZeeKeralam.in@SD",
+    "site_id": "144454"
+  },
+  {
+    "name": "Zee Madhya Pradesh Chhattisgarh",
+    "id": "ZeeMadhyaPradeshChhattisgarh.in@SD",
+    "site_id": "144455"
+  },
+  {
+    "name": "Zee Marathi",
+    "id": "ZeeMarathi.in@SD",
+    "site_id": "144457"
+  },
+  {
+    "name": "Zee Marathi HD",
+    "id": "ZeeMarathi.in@HD",
+    "site_id": "144458"
+  },
+  {
+    "name": "Zee Power",
+    "id": "ZeePower.in@SD",
+    "site_id": "144462"
+  },
+  {
+    "name": "Zee Punjab Haryana Himachal",
+    "id": "ZeePunjabHaryanaHimachal.in@SD",
+    "site_id": "144463"
+  },
+  {
+    "name": "Zee Punjabi",
+    "id": "ZeePunjabi.in@SD",
+    "site_id": "144464"
+  },
+  {
+    "name": "Zee Rajasthan",
+    "id": "ZeeRajasthan.in@SD",
+    "site_id": "144465"
+  },
+  {
+    "name": "Salaam TV",
+    "id": "SalaamTV.in@SD",
+    "site_id": "144466"
+  },
+  {
+    "name": "Zee Sarthak",
+    "id": "ZeeSarthak.in@SD",
+    "site_id": "144467"
+  },
+  {
+    "name": "Zee Talkies",
+    "id": "ZeeTalkies.in@SD",
+    "site_id": "144468"
+  },
+  {
+    "name": "Zee Talkies HD",
+    "id": "ZeeTalkies.in@HD",
+    "site_id": "144469"
+  },
+  {
+    "name": "Zee Tamil",
+    "id": "ZeeTamil.in@SD",
+    "site_id": "144470"
+  },
+  {
+    "name": "Zee Tamil HD",
+    "id": "ZeeTamil.in@HD",
+    "site_id": "144471"
+  },
+  {
+    "name": "Zee Telugu",
+    "id": "ZeeTelugu.in@SD",
+    "site_id": "144473"
+  },
+  {
+    "name": "Zee Telugu HD",
+    "id": "ZeeTelugu.in@HD",
+    "site_id": "144474"
+  },
+  {
+    "name": "Zee Thirai",
+    "id": "ZeeThirai.in@SD",
+    "site_id": "144476"
+  },
+  {
+    "name": "Zee TV",
+    "id": "ZeeTV.in@SD",
+    "site_id": "144478"
+  },
+  {
+    "name": "Zee TV HD",
+    "id": "ZeeTV.in@HD",
+    "site_id": "144479"
+  },
+  {
+    "name": "Zee Uttar Pradesh Uttarakhand",
+    "id": "ZeeUttarPradeshUttarakhand.in@SD",
+    "site_id": "144480"
+  },
+  {
+    "name": "Zee Yuva",
+    "id": "ZeeYuva.in@SD",
+    "site_id": "144481"
+  },
+  {
+    "name": "Zee Zest",
+    "id": "ZeeZest.in@SD",
+    "site_id": "144482"
+  },
+  {
+    "name": "Zing",
+    "id": "Zing.in@SD",
+    "site_id": "144484"
+  },
+  {
+    "name": "Zing Home",
+    "id": "ZingHome.in@SD",
+    "site_id": "144935"
+  },
+  {
+    "name": "KTV HD",
+    "id": "KTV.in@HD",
+    "site_id": "145322"
+  },
+  {
+    "name": "Sansad TV 2",
+    "id": "SansadTV2.in@SD",
+    "site_id": "145426"
+  },
+  {
+    "name": "Sun Music HD",
+    "id": "SunMusic.in@HD",
+    "site_id": "145427"
+  },
+  {
+    "name": "Sun Udaya HD",
+    "id": "SunUdaya.in@HD",
+    "site_id": "145430"
+  },
+  {
+    "name": "MNX HD",
+    "id": "MNX.in@HD",
+    "site_id": "147570"
+  },
+  {
+    "name": "Movies Now HD",
+    "id": "MoviesNow.in@HD",
+    "site_id": "147571"
+  },
+  {
+    "name": "Sun Gemini HD",
+    "id": "SunGemini.in@HD",
+    "site_id": "147755"
+  },
+  {
+    "name": "Mazhavil Manorama HD",
+    "id": "MazhavilManorama.in@HD",
+    "site_id": "147769"
+  },
+  {
+    "name": "Zee Keralam HD",
+    "id": "ZeeKeralam.in@HD",
+    "site_id": "148763"
+  },
+  {
+    "name": "Sony Sports Ten 4 Telugu",
+    "id": "SonySportsTen4.in@Telugu",
+    "site_id": "149166"
+  },
+  {
+    "name": "Sun Surya HD",
+    "id": "SunSurya.in@HD",
+    "site_id": "149281"
+  },
+  {
+    "name": "Sony Sports Ten 3 Hindi",
+    "id": "SonySportsTen3Hindi.in@SD",
+    "site_id": "153079"
+  },
+  {
+    "name": "DD India HD",
+    "id": "DDIndia.in@HD",
+    "site_id": "154545"
+  },
+  {
+    "name": "Manoranjan Prime",
+    "id": "ManoranjanPrime.in@SD",
+    "site_id": "154892"
+  },
+  {
+    "name": "NDTV 24x7",
+    "id": "NDTV24x7.in@SD",
+    "site_id": "154895"
+  },
+  {
+    "name": "NTV",
+    "id": "NTVTelugu.in@SD",
+    "site_id": "154897"
+  },
+  {
+    "name": "Animal Planet",
+    "id": "AnimalPlanet.in@SD",
+    "site_id": "157574"
+  },
+  {
+    "name": "Cartoon Network",
+    "id": "CartoonNetwork.in@SD",
+    "site_id": "157576"
+  },
+  {
+    "name": "Colors Bangla",
+    "id": "ColorsBangla.in@SD",
+    "site_id": "157577"
+  },
+  {
+    "name": "Colors Infinity",
+    "id": "ColorsInfinity.in@SD",
+    "site_id": "157578"
+  },
+  {
+    "name": "Colors Kannada",
+    "id": "ColorsKannada.in@SD",
+    "site_id": "157579"
+  },
+  {
+    "name": "Colors Marathi",
+    "id": "ColorsMarathi.in@SD",
+    "site_id": "157580"
+  },
+  {
+    "name": "NDTV India",
+    "id": "NDTVIndia.in@SD",
+    "site_id": "157588"
+  },
+  {
+    "name": "SET",
+    "id": "SonyEntertainmentTelevision.in@SD",
+    "site_id": "157589"
+  },
+  {
+    "name": "SONY MAX",
+    "id": "SonyMax.in@SD",
+    "site_id": "157590"
+  },
+  {
+    "name": "Sony Sports Ten 1",
+    "id": "SonySportsTen1.in@SD",
+    "site_id": "157591"
+  },
+  {
+    "name": "Sony Sports Ten 2",
+    "id": "SonySportsTen2.in@SD",
+    "site_id": "157592"
+  },
+  {
+    "name": "Sony Sports Ten 5",
+    "id": "SonySportsTen5.in@SD",
+    "site_id": "157593"
+  },
+  {
+    "name": "Zoom",
+    "id": "Zoom.in@SD",
+    "site_id": "157600"
+  },
+  {
+    "name": "CNN International",
+    "id": "CNNInternational.us@SouthAsia",
+    "site_id": "157679"
+  },
+  {
+    "name": "Colors Tamil",
+    "id": "ColorsTamil.in@SD",
+    "site_id": "157682"
+  },
+  {
+    "name": "DD News\u00a0HD",
+    "id": "DDNews.in@HD",
+    "site_id": "157683"
+  },
+  {
+    "name": "EUROSPORT",
+    "id": "Eurosport.in@SD",
+    "site_id": "157802"
+  },
+  {
+    "name": "Epic Bhojpuri",
+    "id": "EpicBhojpuri.in@SD",
+    "site_id": "157803"
+  },
+  {
+    "name": "Investigation Discovery",
+    "id": "InvestigationDiscovery.in@SD",
+    "site_id": "157811"
+  },
+  {
+    "name": "Nick Junior",
+    "id": "NickJr.in@SD",
+    "site_id": "157820"
+  },
+  {
+    "name": "Shorts TV",
+    "id": "ShortsTV.uk@SD",
+    "site_id": "157960"
+  },
+  {
+    "name": "Sony AATH",
+    "id": "SonyAath.in@SD",
+    "site_id": "157968"
+  },
+  {
+    "name": "Sony Marathi",
+    "id": "SonyMarathi.in@SD",
+    "site_id": "157970"
+  },
+  {
+    "name": "SONY PAL",
+    "id": "SonyPal.in@SD",
+    "site_id": "157973"
+  },
+  {
+    "name": "Sony Wah",
+    "id": "SonyWah.in@SD",
+    "site_id": "157974"
+  },
+  {
+    "name": "Sun TV HD",
+    "id": "SunTV.in@HD",
+    "site_id": "158021"
+  },
+  {
+    "name": "TLC",
+    "id": "TLC.in@SD",
+    "site_id": "158023"
+  },
+  {
+    "name": "Zee Bangla HD",
+    "id": "ZeeBangla.in@HD",
+    "site_id": "158049"
+  },
+  {
+    "name": "Aastha",
+    "id": "Aastha.in@SD",
+    "site_id": "158133"
+  },
+  {
+    "name": "Aastha Kannada",
+    "id": "AasthaKannada.in@SD",
+    "site_id": "158134"
+  },
+  {
+    "name": "Aastha Telugu",
+    "id": "AasthaTelugu.in@SD",
+    "site_id": "158136"
+  },
+  {
+    "name": "ABP News",
+    "id": "ABPNews.in@SD",
+    "site_id": "158138"
+  },
+  {
+    "name": "Animal Planet HD",
+    "id": "AnimalPlanet.in@HD",
+    "site_id": "158140"
+  },
+  {
+    "name": "B4U Music",
+    "id": "B4UMusic.in@India",
+    "site_id": "158141"
+  },
+  {
+    "name": "BBC News",
+    "id": "BBCNews.uk@SouthAsia",
+    "site_id": "158142"
+  },
+  {
+    "name": "Colors",
+    "id": "Colors.in@SD",
+    "site_id": "158144"
+  },
+  {
+    "name": "Colors Bangla HD",
+    "id": "ColorsBangla.in@HD",
+    "site_id": "158145"
+  },
+  {
+    "name": "Colors Cineplex",
+    "id": "ColorsCineplex.in@SD",
+    "site_id": "158146"
+  },
+  {
+    "name": "Colors Cineplex HD",
+    "id": "ColorsCineplex.in@HD",
+    "site_id": "158147"
+  },
+  {
+    "name": "Colors Gujarati",
+    "id": "ColorsGujarati.in@SD",
+    "site_id": "158148"
+  },
+  {
+    "name": "Colors HD",
+    "id": "Colors.in@HD",
+    "site_id": "158149"
+  },
+  {
+    "name": "Colors Infinity HD",
+    "id": "ColorsInfinity.in@HD",
+    "site_id": "158150"
+  },
+  {
+    "name": "Colors Kannada HD",
+    "id": "ColorsKannada.in@HD",
+    "site_id": "158235"
+  },
+  {
+    "name": "Colors Marathi HD",
+    "id": "ColorsMarathi.in@HD",
+    "site_id": "158237"
+  },
+  {
+    "name": "Colors Rishtey",
+    "id": "ColorsRishteyAsia.in@SD",
+    "site_id": "158239"
+  },
+  {
+    "name": "Colors Super",
+    "id": "ColorsSuper.in@SD",
+    "site_id": "158240"
+  },
+  {
+    "name": "Colors Tamil HD",
+    "id": "ColorsTamil.in@HD",
+    "site_id": "158241"
+  },
+  {
+    "name": "DD India",
+    "id": "DDIndia.in@SD",
+    "site_id": "158251"
+  },
+  {
+    "name": "DD National",
+    "id": "DDNational.in@SD",
+    "site_id": "158252"
+  },
+  {
+    "name": "DD National HD",
+    "id": "DDNational.in@HD",
+    "site_id": "158253"
+  },
+  {
+    "name": "DD News",
+    "id": "DDNews.in@SD",
+    "site_id": "158254"
+  },
+  {
+    "name": "DD Sports",
+    "id": "DDSports.in@SD",
+    "site_id": "158255"
+  },
+  {
+    "name": "Star Gold 2 HD",
+    "id": "StarGold2.in@HD",
+    "site_id": "158297"
+  },
+  {
+    "name": "Star Gold Romance",
+    "id": "StarGoldRomance.in@SD",
+    "site_id": "158298"
+  },
+  {
+    "name": "Star Sports 1 Tamil HD",
+    "id": "StarSports1Tamil.in@HD",
+    "site_id": "158299"
+  },
+  {
+    "name": "Star Sports 1 Telugu HD",
+    "id": "StarSports1Telugu.in@HD",
+    "site_id": "158300"
+  },
+  {
+    "name": "Asianet Movies HD",
+    "id": "AsianetMovies.in@HD",
+    "site_id": "158302"
+  },
+  {
+    "name": "Epic Bharat",
+    "id": "EpicBharat.in@SD",
+    "site_id": "158303"
+  },
+  {
+    "name": "DD Sports HD",
+    "id": "DDSports.in@HD",
+    "site_id": "158312"
+  },
+  {
+    "name": "Star Vijay Super HD",
+    "id": "VijaySuper.in@HD",
+    "site_id": "158319"
+  },
+  {
+    "name": "NDTV MPCG",
+    "id": "NDTVMadhyaPradeshChhattisgarh.in@SD",
+    "site_id": "158324"
+  },
+  {
+    "name": "NDTV Rajasthan",
+    "id": "NDTVRajasthan.in@SD",
+    "site_id": "158325"
+  },
+  {
+    "name": "Pudhari News",
+    "id": "PudhariNews.in@SD",
+    "site_id": "158328"
+  },
+  {
+    "name": "Zee Telugu News",
+    "id": "ZeeTeluguNews.in@SD",
+    "site_id": "158329"
+  },
+  {
+    "name": "Star Sports 2 Telugu",
+    "id": "StarSports2Telugu.in@SD",
+    "site_id": "158351"
+  },
+  {
+    "name": "Star Sports 2 Tamil",
+    "id": "StarSports2Tamil.in@SD",
+    "site_id": "158352"
+  },
+  {
+    "name": "Zing Home",
+    "id": "ZingHome.in@SD",
+    "site_id": "158797"
+  },
+  {
+    "name": "Star Gold Thrills",
+    "id": "StarGoldThrills.in@SD",
+    "site_id": "158822"
+  },
+  {
+    "name": "Disney Channel HD",
+    "id": "DisneyChannel.in@HD",
+    "site_id": "158843"
+  },
+  {
+    "name": "Unique TV",
+    "id": "UniqueTV.in@SD",
+    "site_id": "158844"
+  },
+  {
+    "name": "Ne News",
+    "id": "NENews.in@SD",
+    "site_id": "158851"
+  },
+  {
+    "name": "Shemaroo Josh",
+    "id": "ShemarooJosh.in@SD",
+    "site_id": "158861"
+  },
+  {
+    "name": "Star Movies Select",
+    "id": "StarMoviesSelect.in@SD",
+    "site_id": "158863"
+  },
+  {
+    "name": "EUROSPORT HD",
+    "id": "Eurosport.in@HD",
+    "site_id": "159010"
+  },
+  {
+    "name": "Discovery Kids",
+    "id": "DiscoveryKids.in@SD",
+    "site_id": "159011"
+  },
+  {
+    "name": "Disney Channel",
+    "id": "DisneyChannel.in@SD",
+    "site_id": "159012"
+  },
+  {
+    "name": "Epic TV",
+    "id": "EpicTV.in@SD",
+    "site_id": "159013"
+  },
+  {
+    "name": "Epic Kids",
+    "id": "EpicKids.in@SD",
+    "site_id": "159014"
+  },
+  {
+    "name": "Epic Parivar",
+    "id": "EpicParivar.in@SD",
+    "site_id": "159015"
+  },
+  {
+    "name": "Manorama News",
+    "id": "ManoramaNews.in@SD",
+    "site_id": "159016"
+  },
+  {
+    "name": "MTV HD",
+    "id": "MTV.in@HD",
+    "site_id": "159093"
+  },
+  {
+    "name": "SET HD",
+    "id": "SonyEntertainmentTelevision.in@HD",
+    "site_id": "159096"
+  },
+  {
+    "name": "Epic Music",
+    "id": "EpicMusic.in@SD",
+    "site_id": "159097"
+  },
+  {
+    "name": "SONY MAX HD",
+    "id": "SonyMax.in@HD",
+    "site_id": "159098"
+  },
+  {
+    "name": "Sony SAB HD",
+    "id": "SonySAB.in@HD",
+    "site_id": "159099"
+  },
+  {
+    "name": "SONY YAY",
+    "id": "SonyYay.in@SD",
+    "site_id": "159100"
+  },
+  {
+    "name": "Star Bharat HD",
+    "id": "StarBharat.in@HD",
+    "site_id": "159101"
+  },
+  {
+    "name": "Zee Cinema",
+    "id": "ZeeCinema.in@SD",
+    "site_id": "159104"
+  },
+  {
+    "name": "Discovery Science",
+    "id": "DiscoveryScience.in@SD",
+    "site_id": "159107"
+  },
+  {
+    "name": "Discovery Turbo",
+    "id": "DiscoveryTurbo.in@SD",
+    "site_id": "159108"
+  },
+  {
+    "name": "France 24",
+    "id": "France24.fr@English",
+    "site_id": "159111"
+  },
+  {
+    "name": "Nick HD+",
+    "id": "NickHDPlus.in@HD",
+    "site_id": "159121"
+  },
+  {
+    "name": "PTC Punjabi",
+    "id": "PTCPunjabi.in@SD",
+    "site_id": "159123"
+  },
+  {
+    "name": "Sonic",
+    "id": "Sonic.in@SD",
+    "site_id": "159124"
+  },
+  {
+    "name": "Sony SAB",
+    "id": "SonySAB.in@SD",
+    "site_id": "159125"
+  },
+  {
+    "name": "Sony Sports Ten 1 HD",
+    "id": "SonySportsTen1.in@HD",
+    "site_id": "159126"
+  },
+  {
+    "name": "Sony Sports Ten 2 HD",
+    "id": "SonySportsTen2.in@HD",
+    "site_id": "159127"
+  },
+  {
+    "name": "Sony Sports Ten 3 Hindi HD",
+    "id": "SonySportsTen3Hindi.in@HD",
+    "site_id": "159128"
+  },
+  {
+    "name": "Sony Sports Ten 5 HD",
+    "id": "SonySportsTen5.in@SD",
+    "site_id": "159129"
+  },
+  {
+    "name": "Star Bharat",
+    "id": "StarBharat.in@SD",
+    "site_id": "159130"
+  },
+  {
+    "name": "Star Gold",
+    "id": "StarGold.in@SD",
+    "site_id": "159131"
+  },
+  {
+    "name": "Star Utsav",
+    "id": "StarUtsav.in@SD",
+    "site_id": "159132"
+  },
+  {
+    "name": "Al Jazeera English",
+    "id": "AlJazeera.qa@English",
+    "site_id": "159135"
+  },
+  {
+    "name": "KBS World",
+    "id": "KBSWorld.kr@SD",
+    "site_id": "159287"
+  },
+  {
+    "name": "Zee News",
+    "id": "ZeeNews.in@SD",
+    "site_id": "159298"
+  },
+  {
+    "name": "All Time Movies",
+    "id": "AllTimeMovies.in@SD",
+    "site_id": "160750"
+  },
+  {
+    "name": "Sun Neo",
+    "id": "SunNeo.in@SD",
+    "site_id": "160751"
+  },
+  {
+    "name": "Sansad TV 1 HD",
+    "id": "SansadTV1.in@HD",
+    "site_id": "166275"
+  },
+  {
+    "name": "NDTV Marathi",
+    "id": "NDTVMarathi.in@SD",
+    "site_id": "166276"
+  },
+  {
+    "name": "News Malayalam 24x7",
+    "id": "NewsMalayalam24x7.in@SD",
+    "site_id": "166320"
+  },
+  {
+    "name": "News State Punjab Haryana Himachal",
+    "id": "NewsStatePunjabHaryanaHimachal.in@SD",
+    "site_id": "169169"
+  },
+  {
+    "name": "TV100",
+    "id": "TV100.in@SD",
+    "site_id": "173164"
+  },
+  {
+    "name": "Star Sports 2 Telugu HD",
+    "id": "StarSports2Telugu.in@HD",
+    "site_id": "179406"
+  },
+  {
+    "name": "Star Sports 2 Tamil HD",
+    "id": "StarSports2Tamil.in@HD",
+    "site_id": "179407"
+  },
+  {
+    "name": "Sony\u00a0MAX\u00a01",
+    "id": "SonyMax1.in@SD",
+    "site_id": "179440"
+  },
+  {
+    "name": "Star Maa HD",
+    "id": "StarMaa.in@HD",
+    "site_id": "179620"
+  },
+  {
+    "name": "Prag News",
+    "id": "PragNews.in@SD",
+    "site_id": "181409"
+  },
+  {
+    "name": "Rengoni",
+    "id": "Rengoni.in@SD",
+    "site_id": "181417"
+  },
+  {
+    "name": "GTC Punjabi HD",
+    "id": "GTCPunjabi.in@SD",
+    "site_id": "202704"
+  },
+  {
+    "name": "GTC News HD",
+    "id": "GTCNews.in@SD",
+    "site_id": "202705"
+  },
+  {
+    "name": "Sony Sports Ten 4 Kannada",
+    "id": "SonySportsTen4.in@Kannada",
+    "site_id": "209012"
+  },
+  {
+    "name": "DD Kisan HD",
+    "id": "DDKisan.in@HD",
+    "site_id": "209326"
+  },
+  {
+    "name": "DD Girnar HD",
+    "id": "DDGirnar.in@HD",
+    "site_id": "209534"
+  },
+  {
+    "name": "DD Oriya HD",
+    "id": "DDOdia.in@HD",
+    "site_id": "209539"
+  },
+  {
+    "name": "DD TAMIL HD",
+    "id": "DDTamil.in@HD",
+    "site_id": "209540"
+  },
+  {
+    "name": "DD Sahyadri HD",
+    "id": "DDSahyadri.in@HD",
+    "site_id": "209541"
+  }
+]

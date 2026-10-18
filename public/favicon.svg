@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- OLED Obsidian Canvas Gradient -->
+    <linearGradient id="brandBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#150a2c" />
+      <stop offset="42%" stop-color="#0c051a" />
+      <stop offset="100%" stop-color="#030107" />
+    </linearGradient>
+
+    <!-- Outer Ambient Neon Rim Light -->
+    <linearGradient id="brandRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8" />
+      <stop offset="25%" stop-color="#C084FC" />
+      <stop offset="65%" stop-color="#F472B6" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <!-- Core Radiant Nebula Glow -->
+    <radialGradient id="brandNebula" cx="52%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.45" />
+      <stop offset="45%" stop-color="#EC4899" stop-opacity="0.22" />
+      <stop offset="80%" stop-color="#06B6D4" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Sonic Pulse Harmonic Rings -->
+    <linearGradient id="brandRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.65" />
+      <stop offset="50%" stop-color="#F472B6" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.65" />
+    </linearGradient>
+
+    <!-- Facet 1: Upper Luminous Plane (White to Rose/Pink) -->
+    <linearGradient id="brandFacetTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="35%" stop-color="#FDE8F3" />
+      <stop offset="70%" stop-color="#F472B6" />
+      <stop offset="100%" stop-color="#DB2777" />
+    </linearGradient>
+
+    <!-- Facet 2: Bottom Electric Plane (Cyan to Royal Violet) -->
+    <linearGradient id="brandFacetBottom" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="45%" stop-color="#38BDF8" />
+      <stop offset="85%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#4F46E5" />
+    </linearGradient>
+
+    <!-- Facet 3: Left Foundation Spine (Deep Royal Indigo & Radiant Purple) -->
+    <linearGradient id="brandFacetSpine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC" />
+      <stop offset="45%" stop-color="#9333EA" />
+      <stop offset="100%" stop-color="#6B21A8" />
+    </linearGradient>
+
+    <!-- Apple-Style Specular Glass Curvature Sheen -->
+    <linearGradient id="brandSheen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.16" />
+      <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.02" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Deep Obsidian Squircle Base -->
+  <rect x="18" y="18" width="476" height="476" rx="118" ry="118" fill="url(#brandBg)" stroke="url(#brandRim)" stroke-width="12" />
+
+  <!-- Core Radiant Nebula Background -->
+  <circle cx="266" cy="256" r="210" fill="url(#brandNebula)" />
+
+  <!-- Glass Specular Curve -->
+  <path d="M 18 136 C 18 71 71 18 136 18 L 376 18 C 441 18 494 71 494 136 L 494 220 C 360 264 152 264 18 220 Z" fill="url(#brandSheen)" />
+
+  <!-- Concentric Sonic Resonance Waves -->
+  <circle cx="266" cy="256" r="176" fill="none" stroke="url(#brandRing)" stroke-width="4.5" opacity="0.45" />
+  <circle cx="266" cy="256" r="144" fill="none" stroke="url(#brandRing)" stroke-width="5" opacity="0.7" />
+
+  <!-- Center 3D Faceted Diamond Prism Play Mark (Optically Centered at x=266) -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <!-- Facet 1: Upper Luminous Plane -->
+    <path d="M 200 144 L 382 256 L 266 256 Z" fill="url(#brandFacetTop)" />
+    <!-- Facet 2: Lower Electric Cyan Plane -->
+    <path d="M 200 368 L 382 256 L 266 256 Z" fill="url(#brandFacetBottom)" />
+    <!-- Facet 3: Left Foundation Spine -->
+    <path d="M 200 144 L 200 368 L 266 256 Z" fill="url(#brandFacetSpine)" />
+
+    <!-- Specular Diamond Facet Seams & Glistening Bevels -->
+    <line x1="202" y1="146" x2="380" y2="256" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.95" />
+    <line x1="266" y1="256" x2="380" y2="256" stroke="#FFFFFF" stroke-width="3" opacity="0.8" />
+    <line x1="200" y1="148" x2="200" y2="364" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" opacity="0.55" />
+  </g>
+</svg>

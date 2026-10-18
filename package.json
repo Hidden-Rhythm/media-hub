@@ -1,0 +1,30 @@
+{
+  "name": "media-hub",
+  "version": "1.0.0",
+  "description": "> **The Ultimate Universal Media Streaming Portal & Hub** > *Seamlessly streams Global Radio, Live TV, YouTube, Podcasts, Audiobooks, and 1,700+ websites with synchronized lyrics, rich metadata, and zero database overhead.*",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "hls.js": "^1.7.3",
+    "lucide-react": "^1.59.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tailwind-merge": "^3.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.2",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.30",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.4"
+  }
+}
