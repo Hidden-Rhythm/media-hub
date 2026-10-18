@@ -1,397 +1,244 @@
 
 <div align="center">
 
+<img src="./public/og-image.png" width="100%" alt="Media Hub — Universal Media Platform">
+
+<br>
+
 # media-hub
 
-### Your media. One interface.
+### One interface. Every kind of media.
 
-A universal media portal for discovering and accessing radio, live television, video, podcasts, audiobooks, and streaming destinations — brought together in a unified, dark-first experience.
+A self-hostable media platform for live radio, television, YouTube, podcasts, audiobooks and universal URL playback — backed by a Python API and a React-based player.
 
 <br>
 
 <a href="https://media-hub-ad-free.vercel.app">
-  <img src="https://img.shields.io/badge/OPEN%20LIVE%20DEMO-ffffff?style=for-the-badge&logo=vercel&logoColor=000000" alt="Open Live Demo">
+  <img src="https://img.shields.io/badge/EXPLORE%20MEDIA%20HUB-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo">
 </a>
 &nbsp;
 <a href="https://github.com/Hidden-Rhythm/media-hub">
-  <img src="https://img.shields.io/badge/VIEW%20SOURCE-171717?style=for-the-badge&logo=github&logoColor=ffffff" alt="View Source">
+  <img src="https://img.shields.io/badge/SOURCE%20CODE-171717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code">
 </a>
 
 <br><br>
 
 <img src="https://img.shields.io/badge/React-19-111111?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
-<img src="https://img.shields.io/badge/Vite-Frontend%20Build-111111?style=flat-square&logo=vite&logoColor=646CFF" alt="Vite">
+<img src="https://img.shields.io/badge/Python-Flask-111111?style=flat-square&logo=python&logoColor=3776AB" alt="Python Flask">
+<img src="https://img.shields.io/badge/Vite-8-111111?style=flat-square&logo=vite&logoColor=646CFF" alt="Vite">
 <img src="https://img.shields.io/badge/HLS.js-Streaming-111111?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="HLS.js">
 <img src="https://img.shields.io/badge/License-ISC-111111?style=flat-square" alt="ISC License">
 
 <br><br>
 
-[Live Demo](https://media-hub-ad-free.vercel.app) · [Repository](https://github.com/Hidden-Rhythm/media-hub) · [Issues](https://github.com/Hidden-Rhythm/media-hub/issues)
+[Live application](https://media-hub-ad-free.vercel.app) · [REST API](https://media-hub-ad-free.vercel.app/api/docs) · [Report an issue](https://github.com/Hidden-Rhythm/media-hub/issues)
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0b0b0b&height=2&section=header" width="100%" alt="divider">
+*Built by [Hidden-Rhythm](https://github.com/Hidden-Rhythm)*
 
 </div>
 
-## Overview
+---
 
-**media-hub** is a React-based media portal designed to bring different types of entertainment into one consistent interface.
+## 01 / Overview
 
-Instead of treating radio, television, music, video, podcasts, and audiobooks as entirely separate experiences, the project organizes them into dedicated sections while sharing a common application shell and playback interface.
+**media-hub** brings multiple media sources into a single application instead of splitting the experience across separate players and discovery interfaces.
 
-The result is a single place to explore media, access supported streaming destinations, manage favorites, work with a playback queue, and adjust the listening or viewing experience.
+The frontend is built with React and Vite. A Flask backend powers media discovery, stream extraction, API responses, and streaming-related utilities. A shared player context connects playback controls and media views, while browser storage keeps selected preferences and favorites between visits.
 
-The application combines a dark, OLED-inspired visual direction with a modular frontend architecture built around React, Vite, and reusable interface components.
+The project is designed around three principles:
+
+- **Unified discovery** — search and explore different media categories from one interface.
+- **A shared playback experience** — consistent controls for compatible audio and video sources.
+- **An accessible developer interface** — use the application visually or query its REST API directly.
 
 <div align="center">
 
-| 01 — DISCOVER | 02 — PLAY | 03 — PERSONALIZE |
+| DISCOVER | PLAY | BUILD |
 |:---:|:---:|:---:|
-| Explore dedicated media sections | Use the shared playback interface | Configure themes and preferences |
+| Radio, TV, video and audio | Shared player and playback tools | Flask REST API and stream utilities |
 
 </div>
 
-<br>
-
-<div align="center">
-
-**[→ Open media-hub](https://media-hub-ad-free.vercel.app)**
-
-<sub>Live deployment · Hosted on Vercel</sub>
-
-</div>
-
----
-
-## Contents
-
-- [Features](#features)
-- [Media modules](#media-modules)
-- [Playback experience](#playback-experience)
-- [Keyboard shortcuts](#keyboard-shortcuts)
-- [Application architecture](#application-architecture)
-- [Technology stack](#technology-stack)
-- [Getting started](#getting-started)
-- [Development and build](#development-and-build)
-- [API and streaming proxy](#api-and-streaming-proxy)
-- [Project structure](#project-structure)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [Project information](#project-information)
-
----
-
-## Features
-
-media-hub is organized around a simple idea: different media formats should be accessible through a coherent interface without sacrificing the controls each experience needs.
+## 02 / What’s included
 
 <table>
-  <thead>
-    <tr>
-      <th width="30%">Area</th>
-      <th>Capabilities</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Media discovery</strong></td>
-      <td>Dedicated destinations for radio, TV, YouTube, podcasts, audiobooks, and universal media.</td>
-    </tr>
-    <tr>
-      <td><strong>Shared player</strong></td>
-      <td>A common playback interface with play/pause, volume, seeking, and related media controls where supported.</td>
-    </tr>
-    <tr>
-      <td><strong>Queue management</strong></td>
-      <td>A dedicated queue drawer for working with the current playback queue.</td>
-    </tr>
-    <tr>
-      <td><strong>Lyrics</strong></td>
-      <td>A lyrics drawer integrated into the player experience.</td>
-    </tr>
-    <tr>
-      <td><strong>Video viewing</strong></td>
-      <td>A video overlay and fullscreen-related controls.</td>
-    </tr>
-    <tr>
-      <td><strong>Playback utilities</strong></td>
-      <td>Sleep timer, media metadata, chapter controls, and electronic programme guide (EPG) interface components.</td>
-    </tr>
-    <tr>
-      <td><strong>Personalization</strong></td>
-      <td>Theme selection, settings, and a dedicated favorites section.</td>
-    </tr>
-    <tr>
-      <td><strong>Keyboard interaction</strong></td>
-      <td>Global shortcuts for playback, volume, seeking, themes, lyrics, and display modes.</td>
-    </tr>
-    <tr>
-      <td><strong>Responsive foundation</strong></td>
-      <td>A component-based React application with a shared layout and dedicated views.</td>
-    </tr>
-  </tbody>
+<tr>
+<td width="50%" valign="top">
+
+### 📻 Radio
+
+- Indian and international station discovery
+- Search by station and genre
+- Country and category filters
+- Live audio playback
+- Favorites and shared player controls
+
+</td>
+<td width="50%" valign="top">
+
+### 📺 Live television
+
+- Country-based channel browsing
+- Search and genre filtering
+- Live channel playback
+- HLS playback support
+- Electronic programme guide integration
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ▶ YouTube
+
+- Video search and discovery
+- Trending and live feeds
+- Relevance, popularity and recency sorting
+- URL-based media extraction
+- Shared video playback interface
+
+</td>
+<td width="50%" valign="top">
+
+### 🎙 Podcasts
+
+- Indian and global discovery
+- Searchable podcast catalogues
+- RSS feed episode retrieval
+- Episode playback where supported
+- Favorites and playback controls
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📚 Audiobooks
+
+- Indian and international collections
+- Category-based browsing
+- Book search
+- Chapter retrieval
+- Chapter-aware listening interface
+
+</td>
+<td width="50%" valign="top">
+
+### 🔗 Universal URL player
+
+- Paste a supported media URL
+- Extract playable media through the backend
+- Select extraction quality where available
+- Keep a recent-URL history
+- Support for direct media URLs and compatible third-party sources
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎵 Lyrics and metadata
+
+- Lyrics retrieval by title and artist
+- Synchronized lyrics when available
+- Media metadata enrichment
+- Subtitle-related backend functionality
+
+</td>
+<td width="50%" valign="top">
+
+### ⚙ Personalization
+
+- Six selectable visual themes
+- Favorites stored in browser storage
+- Playback queue and lyrics drawer
+- Sleep timer and volume boost
+- Fullscreen and picture-in-picture controls
+
+</td>
+</tr>
 </table>
 
-> **Compatibility note:** Actual playback depends on the selected source, supported media format, browser capabilities, network access, and any required API or streaming services. Availability can vary between sources.
+> **Source compatibility:** A media source can become unavailable, restrict embedding, require particular headers, or use a format unsupported by the browser. The application provides discovery and playback tooling; it cannot guarantee that every third-party source will remain accessible.
 
----
+## 03 / Explore the application
 
-## Media modules
-
-Each destination focuses on a different type of media while remaining part of the same application.
-
-### Radio
-
-A dedicated space for internet radio and audio streams.
-
-- Browse the radio section.
-- Start supported live audio streams.
-- Use the shared player interface for playback controls.
-- Access the queue and lyrics interface where applicable.
-
-The project metadata describes an ambition to cover a broad directory of global radio stations. The availability of an individual station depends on its source and stream endpoint.
-
-### Live TV
-
-A television-oriented interface for supported live channels.
-
-- Access the TV section.
-- Use the video playback experience for compatible streams.
-- Access the EPG interface for programme-guide functionality where supported.
-- Use fullscreen and video display controls when available.
-
-**Streaming formats matter:** browser playback support varies. HLS playback can be handled through HLS.js in compatible environments, but not every stream is guaranteed to work.
-
-### YouTube
-
-A dedicated destination for YouTube-related media.
-
-- Access the YouTube section.
-- Explore supported video content through the available interface.
-- Use the video experience where the selected media source supports it.
-
-Playback and embedding behavior remain subject to YouTube availability, browser restrictions, and source-specific limitations.
-
-### Podcasts
-
-A dedicated section for podcast-oriented listening.
-
-- Access podcast content through its dedicated view.
-- Use the shared audio experience where supported.
-- Keep podcast listening within the broader media interface.
-
-### Audiobooks
-
-A dedicated destination for audiobook content.
-
-- Access the audiobook section.
-- Use playback controls supported by the selected source.
-- Access chapter-related controls where the media and interface support them.
-
-### Universal media
-
-The universal media view provides a broader destination for media that does not fit exclusively into one of the specialized sections.
-
-It complements the dedicated radio, television, video, podcast, and audiobook views.
-
-### API Hub
-
-The API Hub provides a dedicated application destination for API-related functionality.
-
-Its availability and behavior depend on the implementation and any associated backend services configured for the deployment.
-
-### Favorites
-
-A dedicated destination for accessing favorited media.
-
-### Settings
-
-A central place for application preferences, including the settings and theme-related functionality exposed by the interface.
-
----
-
-## Playback experience
-
-The playback interface is shared across the application, helping maintain consistent interaction patterns between different media destinations.
-
-### Player controls
-
-The application includes a shared player bar and player context, with playback actions adapted to the selected media.
-
-| Control or component | Purpose |
+| Route | Purpose |
 |---|---|
-| Player bar | Provides the common playback interface. |
-| Queue drawer | Opens the playback queue interface. |
-| Lyrics drawer | Opens the lyrics interface. |
-| Video overlay | Provides a dedicated video display surface. |
-| Sleep timer | Opens the sleep-timer controls. |
-| Metadata modal | Opens the media metadata interface. |
-| EPG modal | Opens the electronic programme guide interface. |
-| Chapters modal | Opens the chapter controls. |
-| Theme modal | Opens theme selection. |
-| Shortcuts modal | Displays the keyboard-shortcut reference. |
-| Confirmation modal | Provides a reusable confirmation interface. |
-| Toast container | Displays application notifications. |
+| `/` | Home and featured modules |
+| `/radio` | Radio discovery and live stations |
+| `/tv` | Live television and channel browsing |
+| `/youtube` | Search, trending videos and live content |
+| `/podcasts` | Podcast discovery and episodes |
+| `/audiobooks` | Audiobook discovery and chapters |
+| `/universal` | Extract media from a supported URL |
+| `/api-hub` | Explore and test API requests |
+| `/favorites` | Access saved media |
+| `/settings` | Themes and application preferences |
 
-These are the interface components identified in the application source. The data available inside each component depends on the selected media source and the relevant implementation.
+### The player
 
-### Themes and visual behavior
+The shared player is managed through `PlayerProvider` and `usePlayer` in `src/context/PlayerContext.jsx`.
 
-The application follows a dark, OLED-inspired design direction.
+Depending on the selected source, the interface includes playback, seeking, volume, mute, playback speed, queue management, lyrics, video display, and related media actions.
 
-Its shared shell also uses the active destination to influence the ambient background color, allowing the interface to respond visually as the user moves between sections.
+Additional interface components include:
 
-The theme interface provides a dedicated place to access theme selection rather than requiring users to navigate through unrelated controls.
+- `PlayerBar.jsx` — the shared player controls.
+- `QueueDrawer.jsx` — the playback queue interface.
+- `LyricsDrawer.jsx` — the lyrics interface.
+- `VideoOverlay.jsx` — the video viewing surface.
+- `Modals/` — sleep timer, metadata, EPG, chapters, themes, shortcuts and confirmation dialogs.
 
----
+### Themes
 
-## Keyboard shortcuts
+Choose from six built-in themes in Settings or cycle through them using the `T` shortcut.
 
-The application registers global keyboard shortcuts for common actions. The following table documents the shortcuts identified in the current application source.
+| Theme | Visual direction |
+|---|---|
+| OLED Pure Black | Black with violet and fuchsia accents |
+| Cyberpunk Neon | Cyan and pink |
+| Emerald & Gold | Green and gold |
+| Crimson Velvet | Ruby red and violet |
+| Abyssal Ocean | Blue and cyan |
+| Cosmic Amethyst | Violet and lavender |
 
-| Key | Action |
+The selected theme is persisted in browser storage.
+
+## 04 / Keyboard shortcuts
+
+The following shortcuts are registered by the application shell. Availability may depend on the active media and browser.
+
+| Shortcut | Action |
 |:---:|---|
 | `Space` | Play or pause |
 | `M` | Toggle mute |
-| `L` | Toggle lyrics |
-| `T` | Cycle theme |
-| `Shift + /` | Open the keyboard-shortcuts modal |
-| `F` | Open the video overlay when applicable; otherwise toggle fullscreen |
+| `L` | Open or close lyrics |
+| `T` | Cycle visual themes |
+| `Shift + /` | Open the shortcuts dialog |
+| `F` | Toggle the video overlay for video media; otherwise toggle fullscreen |
 | `F11` | Toggle fullscreen |
-| `P` | Toggle picture-in-picture |
-| `←` | Seek backward by 5 seconds |
-| `→` | Seek forward by 5 seconds |
+| `P` | Toggle picture-in-picture when supported |
+| `←` | Seek backward 5 seconds |
+| `→` | Seek forward 5 seconds |
 | `↑` | Increase volume by 5% |
 | `↓` | Decrease volume by 5% |
 
-**Input safety:** The keyboard handler ignores events originating from standard `INPUT`, `SELECT`, and `TEXTAREA` elements so ordinary typing and form interaction do not accidentally trigger these shortcuts.
-
-Some actions depend on browser support or the active media type. For example, picture-in-picture is not available for every media source.
+Shortcuts are ignored when focus is inside standard input, select or textarea elements.
 
 ---
 
-## Application architecture
+## 05 / Getting started
 
-media-hub uses a modular React architecture. The application shell coordinates navigation and shared interface components, while dedicated views handle individual destinations.
+### Prerequisites
 
-```text
-media-hub
-│
-├── Application shell
-│   ├── Navigation and routing
-│   ├── Active view
-│   └── Shared display behavior
-│
-├── Shared player context
-│   └── usePlayer
-│
-├── Reusable components
-│   ├── Sidebar
-│   ├── PlayerBar
-│   ├── VideoOverlay
-│   ├── LyricsDrawer
-│   ├── QueueDrawer
-│   └── ToastContainer
-│
-├── Modal interfaces
-│   ├── Sleep timer
-│   ├── Metadata
-│   ├── EPG
-│   ├── Chapters
-│   ├── Themes
-│   ├── Shortcuts
-│   └── Confirmation
-│
-└── Dedicated views
-    ├── Home
-    ├── Radio
-    ├── TV
-    ├── YouTube
-    ├── Podcasts
-    ├── Audiobooks
-    ├── Universal media
-    ├── API Hub
-    ├── Favorites
-    └── Settings
-```
+Install the following before running the project:
 
-### Navigation
-
-The application handles its supported paths through browser history and a `popstate` listener.
-
-The source includes the following destinations and aliases:
-
-| Path | Destination |
-|---|---|
-| `/` | Home |
-| `/home` | Home |
-| `/radio` | Radio |
-| `/tv` | TV |
-| `/youtube` | YouTube |
-| `/podcasts` | Podcasts |
-| `/audiobooks` | Audiobooks |
-| `/universal` | Universal media |
-| `/api-hub` | API Hub |
-| `/api` | API Hub |
-| `/favorites` | Favorites |
-| `/settings` | Settings |
-
-The application also listens for fullscreen changes and uses a browser preference named `mh_auto_fullscreen`, enabled by default when no saved value exists.
-
-### Shared state
-
-The shared player context exposes playback state and actions to the application components through `PlayerProvider` and `usePlayer`.
-
-This avoids requiring each view to implement a completely independent player interface.
-
-### Development proxy
-
-Vite is configured to forward two request prefixes to a local service:
-
-- `/api` → `http://127.0.0.1:5000`
-- `/stream` → `http://127.0.0.1:5000`
-
-This proxy is part of the development configuration. It does not, by itself, provide a backend or guarantee that the same routes exist in production.
-
----
-
-## Technology stack
-
-The project uses a modern JavaScript frontend stack.
-
-| Technology | Role |
-|---|---|
-| [React](https://react.dev/) | Component-based application interface |
-| [React DOM](https://react.dev/) | Rendering React into the browser |
-| [Vite](https://vite.dev/) | Development server and production build |
-| [HLS.js](https://github.com/video-dev/hls.js/) | HLS playback support in compatible browsers |
-| [Lucide React](https://lucide.dev/) | Interface icons |
-| [Tailwind CSS](https://tailwindcss.com/) | Utility-first styling foundation |
-| [clsx](https://github.com/lukeed/clsx) | Conditional class-name composition |
-| [tailwind-merge](https://github.com/dcastil/tailwind-merge) | Resolving conflicting Tailwind utility classes |
-| [PostCSS](https://postcss.org/) | CSS processing |
-| [Autoprefixer](https://github.com/postcss/autoprefixer) | CSS vendor-prefix handling |
-
-### Runtime and package tooling
-
-The project uses ES modules and npm scripts.
-
-The available scripts are:
-
-| Command | Purpose |
-|---|---|
-| `npm run dev` | Start the Vite development server |
-| `npm run build` | Generate the production build |
-| `npm run preview` | Preview the generated production build |
-
-Use a current Node.js release compatible with the installed Vite version. Check the package requirements if you encounter a Node.js engine-version error.
-
----
-
-## Getting started
-
-Run the project locally to explore the application and work on its source code.
+- **Node.js and npm** — for the React/Vite frontend.
+- **Python** — for the Flask backend.
+- **Git** — to clone the repository.
 
 ### 1. Clone the repository
 
@@ -400,292 +247,444 @@ git clone https://github.com/Hidden-Rhythm/media-hub.git
 cd media-hub
 ```
 
-### 2. Install dependencies
+### 2. Install frontend dependencies
 
 ```bash
 npm install
 ```
 
-This installs the dependencies defined in `package.json`.
+### 3. Create a Python virtual environment
 
-### 3. Start the development server
+**Windows — PowerShell**
+
+```powershell
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+If PowerShell blocks activation, you can use Command Prompt instead:
+
+```bat
+.venv\Scripts\activate.bat
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+**macOS / Linux**
 
 ```bash
-npm run dev
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
 ```
 
-The Vite configuration specifies port `3000`.
+The Python dependencies include Flask, Flask-CORS, Requests, `pyradios`, `yt-dlp`, `audiobooker`, `feedparser`, `syncedlyrics`, and Pillow.
 
-Open the local address shown in the terminal, normally:
+### 4. Start the Flask backend
 
-```text
-http://localhost:3000
-```
-
-If the port is already occupied, stop the conflicting process or configure an available port.
-
-### 4. Create a production build
+From the repository root, with the Python environment activated:
 
 ```bash
-npm run build
+python app.py
 ```
 
-Vite generates the production output in the `dist/` directory.
-
-### 5. Preview the production build
-
-```bash
-npm run preview
-```
-
-Vite starts a local preview server for the generated build. Use the URL printed in the terminal.
-
----
-
-## API and streaming proxy
-
-The development configuration forwards `/api` and `/stream` requests to a service running at:
+The Flask application starts on:
 
 ```text
 http://127.0.0.1:5000
 ```
 
-If your local setup relies on these routes, the corresponding backend service must be available separately.
-
-### Expected development setup
+You can check the API documentation at:
 
 ```text
-Browser
-   │
-   ▼
-Vite development server
-   │
-   ├── /api/* ────────┐
-   │                  │
-   └── /stream/* ─────┤
-                      ▼
-              Local service
-              127.0.0.1:5000
+http://127.0.0.1:5000/api/docs
 ```
 
-### Important deployment distinction
+Keep this terminal open while using the frontend in development.
 
-Vite's development proxy is not automatically carried into a production deployment.
+### 5. Start the frontend
 
-If the deployed frontend needs `/api` or `/stream`, those requests must be routed to the appropriate production service through deployment configuration or another supported architecture.
-
-The live frontend may load successfully even when an individual API-backed feature or stream is unavailable. Diagnose those separately rather than assuming a successful frontend build guarantees every media source will play.
-
----
-
-## Project structure
-
-The following is a high-level guide to the main files and source areas referenced by the application.
-
-```text
-media-hub/
-│
-├── public/
-│   └── Public static assets
-│
-├── src/
-│   ├── main.jsx
-│   ├── App.jsx
-│   ├── index.css
-│   │
-│   ├── components/
-│   │   ├── Sidebar
-│   │   ├── PlayerBar
-│   │   ├── VideoOverlay
-│   │   ├── LyricsDrawer
-│   │   ├── QueueDrawer
-│   │   └── ToastContainer
-│   │
-│   ├── modals/
-│   │   ├── SleepTimerModal
-│   │   ├── MetadataModal
-│   │   ├── EpgModal
-│   │   ├── ChaptersModal
-│   │   ├── ThemeModal
-│   │   ├── ShortcutsModal
-│   │   └── ConfirmModal
-│   │
-│   └── views/
-│       ├── HomeView
-│       ├── RadioView
-│       ├── TVView
-│       ├── YouTubeView
-│       ├── PodcastsView
-│       ├── AudiobooksView
-│       ├── UniversalView
-│       ├── ApiHubView
-│       ├── FavoritesView
-│       └── SettingsView
-│
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
-```
-
-*This is a conceptual overview, not a guaranteed exhaustive file listing. Refer to the repository for the exact current filenames and directories.*
-
-### Key files
-
-| File | Responsibility |
-|---|---|
-| `index.html` | HTML document, page metadata, and React mounting element |
-| `src/main.jsx` | Application entry point and React root |
-| `src/App.jsx` | Application shell, view selection, navigation, and shared UI integration |
-| `src/index.css` | Main application stylesheet |
-| `vite.config.js` | Vite configuration, development proxy, and build output |
-| `package.json` | Project metadata, dependencies, and npm scripts |
-
----
-
-## Troubleshooting
-
-### The development server does not start
-
-Verify that Node.js and npm are installed:
+Open a **second terminal** in the same repository and run:
 
 ```bash
-node --version
-npm --version
-```
-
-Then reinstall dependencies if necessary:
-
-```bash
-npm install
 npm run dev
 ```
 
-If the installed Node.js version is incompatible with the toolchain, install a compatible version and retry.
-
-### The page loads, but a stream does not play
-
-A working interface does not guarantee a working media source.
-
-Check:
-
-- Whether the source URL is still accessible.
-- Whether the stream requires authentication or special headers.
-- Whether the browser supports the media format.
-- Whether HLS playback is supported by the selected browser and source.
-- Whether cross-origin restrictions prevent playback.
-- Whether the source itself is offline.
-
-Test a different supported source to distinguish an application problem from a source-specific issue.
-
-### API requests fail locally
-
-Check whether the required service is listening on port `5000`.
+Vite is configured to use port `3000`. Open:
 
 ```text
-127.0.0.1:5000
+http://localhost:3000
 ```
 
-Review the browser's developer console and network panel to identify failed `/api` or `/stream` requests.
+The development server forwards `/api` and `/stream` requests to the Flask service on port `5000`.
 
-Remember that Vite's proxy only forwards requests; it does not implement the API.
+### Local development at a glance
 
-### The deployed application behaves differently
+```text
+Browser
+  │
+  ▼
+React + Vite
+localhost:3000
+  │
+  ├── /api/* ─────────┐
+  │                   │
+  └── /stream/* ──────┤
+                      ▼
+                Flask backend
+              127.0.0.1:5000
+                      │
+             ┌────────┴────────┐
+             │                 │
+        Media providers    Stream / EPG
+```
 
-The Vercel deployment and local development environment may differ in their routing, environment, and available backend services.
-
-Check the deployment logs, browser console, failed network requests, and production routing configuration. If a feature relies on a backend, ensure the production service is reachable from the deployed frontend.
-
-### Keyboard shortcuts interfere with another action
-
-Some shortcuts depend on focus, browser behavior, and the active media source. Test the action with focus outside form fields and check whether the browser or operating system reserves the same key combination.
+**Important:** Running only `npm run dev` starts the frontend, not the Flask API. Features that depend on backend endpoints will fail unless the backend is running and reachable.
 
 ---
 
-## Contributing
+## 06 / Configuration
 
-Contributions that improve reliability, usability, accessibility, playback compatibility, and maintainability are welcome.
+### Optional TMDB key
 
-### Suggested workflow
+The repository includes `.env.example` with an optional `TMDB_KEY` setting for movie and series metadata enrichment. The application also exposes a TMDB key field in its Settings interface.
 
-1. Fork the repository.
-2. Create a branch for your change.
-3. Install dependencies with `npm install`.
-4. Run the development server and test the affected interface.
-5. Verify that the production build succeeds.
-6. Submit a pull request with a clear explanation of the change.
+The app can be used without configuring this key; metadata enrichment may be limited when it is absent.
 
-### Before submitting
+To set the environment variable for the current PowerShell session:
+
+```powershell
+$env:TMDB_KEY = "your_tmdb_api_key"
+python app.py
+```
+
+For Command Prompt:
+
+```bat
+set TMDB_KEY=your_tmdb_api_key
+python app.py
+```
+
+For macOS or Linux:
+
+```bash
+export TMDB_KEY="your_tmdb_api_key"
+python app.py
+```
+
+These commands set the variable for the current terminal session. They do not permanently configure Windows or other operating-system environments.
+
+**Keep API keys private.** Do not commit real credentials to the repository. If you use the in-app settings, the frontend saves its TMDB key in browser local storage, so only use that on a device and browser profile you trust.
+
+---
+
+## 07 / REST API
+
+Media Hub exposes a Flask REST API for its discovery and playback-related features. The API documentation routes are implemented in `app.py`.
+
+### API documentation
+
+Once the backend is running, open:
+
+- [`/api/docs`](http://127.0.0.1:5000/api/docs) — developer-friendly API documentation.
+- [`/api/info`](http://127.0.0.1:5000/api/info) — API information.
+- [`/api`](http://127.0.0.1:5000/api) — API documentation response.
+
+### Endpoint reference
+
+| Endpoint | Purpose | Common parameters |
+|---|---|---|
+| `GET /api/universal` | Unified search across media providers | `q`, `country`, `limit`, `sources`, `url` |
+| `GET /api/all` | Alias for unified search | Same as above |
+| `GET /api/search` | Alias for unified search | Same as above |
+| `GET /api/youtube/search` | Search YouTube media | `q`, `cat`, `sort`, `limit` |
+| `GET /api/youtube/trending` | Trending video feed | `cat`, `limit` |
+| `GET /api/youtube/live` | Live video discovery | `q`, `cat`, `limit` |
+| `GET /api/youtube/extract` | Extract media information from a video URL | `url`, `quality` |
+| `GET /api/radio/search` | Search radio stations | `name` or `q`, `country`, `tag`, `limit` |
+| `GET /api/tv/channels` | Retrieve TV channels | `country`, `category`, `q` |
+| `GET /api/podcasts/search` | Search podcasts | `q`, `country`, `limit` |
+| `GET /api/podcasts/episodes` | Retrieve podcast episodes | `feed`, `limit` |
+| `GET /api/audiobooks/search` | Search audiobooks | `q`, `region`, `cat`, `limit` |
+| `GET /api/audiobooks/chapters` | Retrieve audiobook chapters | `id` or `identifier` |
+| `GET /api/universal/play` | Extract a URL for playback | `url`, `quality` |
+| `GET /api/stream` | Select a stream proxy strategy | `url`, `type` |
+| `GET /api/stream/proxy` | Proxy a media resource | `url` |
+| `GET /api/stream/hls` | Rewrite and proxy HLS playlists | `url` |
+| `GET /api/epg/load` | Load an XMLTV programme guide | `url` |
+| `GET /api/epg/now` | Retrieve current/next programme data | `tvg_id` |
+
+Other routes support lyrics, metadata and subtitle-related functionality. Use `/api/docs` for the live API documentation rather than assuming every endpoint accepts the same parameters.
+
+### Example 1 — Unified search
+
+```bash
+curl "http://127.0.0.1:5000/api/universal?q=lofi&country=GLOBAL&limit=6"
+```
+
+The unified endpoint aggregates results from selected media sources and returns a JSON response with source-specific results and a normalized feed.
+
+Choose particular sources with the `sources` parameter:
+
+```text
+/api/universal?q=lofi&sources=youtube,radio&country=GLOBAL&limit=5
+```
+
+### Example 2 — Search YouTube
+
+```bash
+curl "http://127.0.0.1:5000/api/youtube/search?q=lofi&limit=10"
+```
+
+### Example 3 — Search radio
+
+```bash
+curl "http://127.0.0.1:5000/api/radio/search?name=jazz&country=GLOBAL&limit=10"
+```
+
+### Example 4 — Search podcasts
+
+```bash
+curl "http://127.0.0.1:5000/api/podcasts/search?q=technology&country=GLOBAL&limit=10"
+```
+
+### Example 5 — Extract a media URL
+
+```bash
+curl "http://127.0.0.1:5000/api/universal/play?url=https%3A%2F%2Fexample.com%2Fmedia.mp4"
+```
+
+Replace the example URL with a source you are authorized to access and that the extractor supports.
+
+### Use the API Hub in the browser
+
+You can also open the application’s **API Hub** view at `/api-hub`. It provides a request interface with source selection, query settings, response timing, and code examples for cURL, JavaScript, Python and Dart.
+
+The API Hub is useful for trying a request before integrating it into another project.
+
+---
+
+## 08 / Production build and deployment
+
+### Build the frontend
 
 ```bash
 npm run build
 ```
 
-When changing a media module, check its navigation, shared player integration, empty and error states, and behavior on smaller screens.
+Vite writes the frontend production bundle to `dist/`.
 
-When modifying global playback or keyboard handling, verify that existing player controls and shortcuts continue to work.
+### Preview the production frontend
 
-Please avoid committing generated output, dependency folders, private credentials, or unrelated configuration changes.
+```bash
+npm run preview
+```
+
+Use the URL printed in the terminal to test the generated frontend bundle.
+
+### Flask deployment
+
+The Flask app can serve the built frontend when `dist/index.html` exists. Its entry point is `app.py`, and the Vercel serverless entry point imports the Flask app through `api/index.py`.
+
+The repository also contains `data/dishtv_channels.json`, used as part of the project's TV channel data, and `epg.py` for programme-guide handling.
+
+### Vercel considerations
+
+A successful frontend deployment does not automatically guarantee that every backend feature or external stream will work. Production must route API requests to the Flask serverless entry point or another suitable backend deployment.
+
+The Vite proxy in `vite.config.js` is a **development-only configuration**. It forwards `/api` and `/stream` to `127.0.0.1:5000` during local development; it does not configure Vercel's production routing.
+
+Check the deployment's routing configuration and function logs if the frontend loads but API requests fail.
 
 ---
 
-## Project information
+## 09 / Project structure
+
+The following tree reflects the main source files and directories in the repository.
+
+```text
+media-hub/
+├── api/
+│   └── index.py
+├── data/
+│   └── dishtv_channels.json
+├── public/
+│   ├── favicon.svg
+│   ├── manifest.json
+│   └── og-image.png
+├── src/
+│   ├── components/
+│   │   ├── Modals/
+│   │   │   ├── ChaptersModal.jsx
+│   │   │   ├── ConfirmModal.jsx
+│   │   │   ├── EpgModal.jsx
+│   │   │   ├── MetadataModal.jsx
+│   │   │   ├── ShortcutsModal.jsx
+│   │   │   ├── SleepTimerModal.jsx
+│   │   │   └── ThemeModal.jsx
+│   │   ├── Views/
+│   │   │   ├── ApiHubView.jsx
+│   │   │   ├── AudiobooksView.jsx
+│   │   │   ├── FavoritesView.jsx
+│   │   │   ├── HomeView.jsx
+│   │   │   ├── PodcastsView.jsx
+│   │   │   ├── RadioView.jsx
+│   │   │   ├── SettingsView.jsx
+│   │   │   ├── TVView.jsx
+│   │   │   ├── UniversalView.jsx
+│   │   │   └── YouTubeView.jsx
+│   │   ├── Icons.jsx
+│   │   ├── LyricsDrawer.jsx
+│   │   ├── PlayerBar.jsx
+│   │   ├── QueueDrawer.jsx
+│   │   ├── Sidebar.jsx
+│   │   ├── ToastContainer.jsx
+│   │   └── VideoOverlay.jsx
+│   ├── context/
+│   │   └── PlayerContext.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .env.example
+├── app.py
+├── epg.py
+├── index.html
+├── package.json
+├── postcss.config.js
+├── providers.py
+├── requirements.txt
+└── vite.config.js
+```
+
+### Core files
+
+| File | Responsibility |
+|---|---|
+| `app.py` | Flask application, REST endpoints and stream proxy routes |
+| `api/index.py` | Vercel serverless entry point for Flask |
+| `providers.py` | Radio, TV, YouTube, universal URL, podcast, audiobook, lyrics, metadata and subtitle providers |
+| `epg.py` | XMLTV programme-guide parsing and EPG services |
+| `data/dishtv_channels.json` | DishTV channel data |
+| `src/App.jsx` | Application shell, view navigation, keyboard shortcuts and modal integration |
+| `src/context/PlayerContext.jsx` | Shared playback state, favorites, theme preferences and player actions |
+| `src/components/Views/` | Individual media and settings screens |
+| `src/components/Modals/` | Modal interfaces used by the application |
+| `vite.config.js` | Development server, API/stream proxy and build configuration |
+| `package.json` | Frontend dependencies and npm scripts |
+| `requirements.txt` | Python dependencies |
+| `.env.example` | Optional environment configuration example |
+
+---
+
+## 10 / Troubleshooting
+
+### Frontend opens, but media searches fail
+
+Confirm that the Flask backend is running:
+
+```bash
+python app.py
+```
+
+Then open the API documentation directly at `http://127.0.0.1:5000/api/docs`. If that fails, investigate the Python environment and backend logs before debugging the frontend.
+
+### `pip install` fails
+
+Make sure the virtual environment is activated and that you are using a supported Python installation.
+
+```bash
+python --version
+python -m pip --version
+pip install -r requirements.txt
+```
+
+Some media providers rely on external services or extractor behavior that can change independently of this project.
+
+### A media URL cannot be extracted
+
+Check that the URL is valid, publicly accessible where required, and supported by the installed extraction provider. Some sites restrict automated extraction, embeds or direct playback. A failed extraction does not necessarily indicate a broken player.
+
+### HLS video does not play
+
+Possible causes include an unavailable upstream playlist, invalid HLS segments, browser restrictions, network failures, or source-side access requirements. Try another compatible source and inspect the browser's network and console panels.
+
+### API works locally but not on Vercel
+
+The local Vite proxy is not a production proxy. Verify that production API requests are routed to the deployed Flask function and that the function can import its dependencies. Check Vercel's function logs for import errors, request timeouts or upstream service failures.
+
+### TMDB enrichment is missing
+
+TMDB is optional. Check the API key in Settings if you need the in-app configuration, or set `TMDB_KEY` in the backend's runtime environment when using environment-based configuration.
+
+---
+
+## 11 / Technology
 
 <table>
-  <tbody>
-    <tr>
-      <td><strong>Project</strong></td>
-      <td>media-hub</td>
-    </tr>
-    <tr>
-      <td><strong>Author</strong></td>
-      <td><a href="https://github.com/Hidden-Rhythm">Hidden-Rhythm</a></td>
-    </tr>
-    <tr>
-      <td><strong>Live demo</strong></td>
-      <td><a href="https://media-hub-ad-free.vercel.app">media-hub-ad-free.vercel.app</a></td>
-    </tr>
-    <tr>
-      <td><strong>Source code</strong></td>
-      <td><a href="https://github.com/Hidden-Rhythm/media-hub">GitHub repository</a></td>
-    </tr>
-    <tr>
-      <td><strong>Version in package metadata</strong></td>
-      <td>1.0.0</td>
-    </tr>
-    <tr>
-      <td><strong>License declared in package metadata</strong></td>
-      <td>ISC</td>
-    </tr>
-  </tbody>
+<tr><th>Layer</th><th>Technologies</th></tr>
+<tr><td>Frontend</td><td>React 19, React DOM, Vite 8</td></tr>
+<tr><td>Styling</td><td>Tailwind CSS 4, PostCSS, Autoprefixer</td></tr>
+<tr><td>Interface</td><td>Lucide React, clsx, tailwind-merge</td></tr>
+<tr><td>Backend</td><td>Python, Flask, Flask-CORS, Requests</td></tr>
+<tr><td>Media extraction</td><td>yt-dlp, HLS.js</td></tr>
+<tr><td>Audio and discovery</td><td>pyradios, feedparser, audiobooker, syncedlyrics</td></tr>
+<tr><td>Metadata and images</td><td>Pillow, optional TMDB integration</td></tr>
+<tr><td>Deployment</td><td>Vite production build, Flask, Vercel serverless entry point</td></tr>
 </table>
 
-The package metadata declares the ISC license. Refer to the repository's license file, if present, for the authoritative terms governing use and redistribution.
+## 12 / Contributing
+
+Contributions that improve source reliability, playback compatibility, accessibility, API behavior, or maintainability are welcome.
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Install the frontend and backend dependencies.
+4. Test the relevant application view and API endpoint.
+5. Run the production frontend build.
+6. Submit a pull request describing the change and any relevant limitations.
+
+Before submitting frontend changes:
+
+```bash
+npm run build
+```
+
+For backend changes, also test the affected API endpoint locally.
+
+## 13 / Project information
+
+| | |
+|---|---|
+| Project | media-hub |
+| Author | [Hidden-Rhythm](https://github.com/Hidden-Rhythm) |
+| Frontend | React + Vite |
+| Backend | Flask |
+| Package version | `1.0.0` |
+| Declared package license | ISC |
+| Live application | [media-hub-ad-free.vercel.app](https://media-hub-ad-free.vercel.app) |
+| Repository | [Hidden-Rhythm/media-hub](https://github.com/Hidden-Rhythm/media-hub) |
+
+The package metadata declares the ISC license. Verify the repository's license file before redistributing the project.
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0b0b0b&height=2&section=footer" width="100%" alt="divider">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=8B5CF6&height=2" width="100%" alt="">
 
 <br>
 
 ### media-hub
 
-**One interface. More ways to experience media.**
+**A single place to discover, play and work with media.**
+
+Built with care by **[Hidden-Rhythm](https://github.com/Hidden-Rhythm)**
 
 <br>
 
-Built by **[Hidden-Rhythm](https://github.com/Hidden-Rhythm)**
-
-<sub>Designed with intention. Built to bring media together.</sub>
-
-<br><br>
-
-<a href="https://media-hub-ad-free.vercel.app">LIVE DEMO</a>
-&nbsp; · &nbsp;
-<a href="https://github.com/Hidden-Rhythm/media-hub">SOURCE CODE</a>
-&nbsp; · &nbsp;
-<a href="https://github.com/Hidden-Rhythm/media-hub/issues">ISSUES</a>
+[Live demo](https://media-hub-ad-free.vercel.app) · [Source code](https://github.com/Hidden-Rhythm/media-hub) · [Issues](https://github.com/Hidden-Rhythm/media-hub/issues)
 
 </div>
