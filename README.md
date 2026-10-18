@@ -1,11 +1,16 @@
- <div align="center">
+<div align="center">
 
-<img
-  src="https://capsule-render.vercel.app/api?type=venom&height=230&color=0:09090b,45:1e1b4b,100:6d28d9&text=media%20hub&fontColor=ffffff&fontSize=78&fontAlignY=45&desc=YOUR%20MEDIA.%20ONE%20DESTINATION.&descAlignY=68&descSize=14&animation=fadeIn"
-  width="100%"
-  alt="media hub"
-  style="display: block;"
-/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://capsule-render.vercel.app/api?type=venom&height=230&color=0:09090b,45:1e1b4b,100:6d28d9&text=media%20hub&fontColor=ffffff&fontSize=78&fontAlignY=45&desc=YOUR%20MEDIA.%20ONE%20DESTINATION.&descAlignY=68&descSize=14&animation=fadeIn"
+  />
+  <img
+    src="https://capsule-render.vercel.app/api?type=venom&height=230&color=0:f5f3ff,45:e9e5ff,100:c4b5fd&text=media%20hub&fontColor=18181b&fontSize=78&fontAlignY=45&desc=YOUR%20MEDIA.%20ONE%20DESTINATION.&descAlignY=68&descSize=14&animation=fadeIn"
+    width="100%"
+    alt="media hub"
+  />
+</picture>
 
 <br/>
 
