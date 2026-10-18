@@ -27,7 +27,7 @@
   <a href="#-about">About</a> ·
   <a href="#-what-you-can-do">Features</a> ·
   <a href="#-the-api">API</a> ·
-  <a href="#-keyboard-shortcuts">Shortcuts</a> ·
+  <a href="#keyboard-shortcuts">Shortcuts</a> ·
   <a href="#-run-locally">Setup</a>
 </p>
 
