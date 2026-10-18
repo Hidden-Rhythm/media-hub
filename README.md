@@ -324,7 +324,7 @@ async function searchMedia(query) {
 console.log(await searchMedia("lofi"));
 ```
 
-### Example · cURL
+### Example · CURL
 
 ```bash
 curl -X GET \
