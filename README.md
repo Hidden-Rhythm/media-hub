@@ -1,18 +1,8 @@
-<div align="center">
+ <div align="center">
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://capsule-render.vercel.app/api?type=venom&height=230&color=0:09090b,45:1e1b4b,100:6d28d9&text=media%20hub&fontColor=ffffff&fontSize=78&fontAlignY=45&desc=YOUR%20MEDIA.%20ONE%20DESTINATION.&descAlignY=68&descSize=14&animation=fadeIn"
-  />
-  <img
-    src="https://capsule-render.vercel.app/api?type=venom&height=230&color=0:f5f3ff,45:e9e5ff,100:c4b5fd&text=media%20hub&fontColor=18181b&fontSize=78&fontAlignY=45&desc=YOUR%20MEDIA.%20ONE%20DESTINATION.&descAlignY=68&descSize=14&animation=fadeIn"
-    width="100%"
-    alt="media hub"
-  />
-</picture>
+![media hub — dark theme](https://capsule-render.vercel.app/api?type=venom&height=230&color=0:09090b,45:1e1b4b,100:6d28d9&text=media%20hub&fontColor=ffffff&fontSize=78&fontAlignY=45&desc=YOUR%20MEDIA.%20ONE%20DESTINATION.&descAlignY=68&descSize=14&animation=fadeIn#gh-dark-mode-only)
 
-<br/>
+![media hub — light theme](https://capsule-render.vercel.app/api?type=venom&height=230&color=0:f5f3ff,45:e9e5ff,100:c4b5fd&text=media%20hub&fontColor=18181b&fontSize=78&fontAlignY=45&desc=YOUR%20MEDIA.%20ONE%20DESTINATION.&descAlignY=68&descSize=14&animation=fadeIn#gh-light-mode-only)
 
 <p>
   <a href="https://media-hub-ad-free.vercel.app">
@@ -26,11 +16,9 @@
   </a>
 </p>
 
-<p>
-  <strong>One interface. Multiple worlds of entertainment.</strong>
-  <br/>
-  <sub>Discover · Listen · Watch · Explore</sub>
-</p>
+**One interface. Multiple worlds of entertainment.**
+
+<sub>Discover · Listen · Watch · Explore</sub>
 
 <p>
   <a href="#-about">About</a> ·
@@ -55,7 +43,7 @@ No unnecessary complexity. Just one place to explore the media you enjoy.
 <div align="center">
 
 | 🌐 One destination | 🎧 Shared playback | 🔌 Developer-ready |
-|:---:|:---:|:---:|
+|---|---|---|
 | Multiple media categories | A consistent listening and viewing experience | A public API for integrations |
 
 </div>
@@ -65,8 +53,8 @@ No unnecessary complexity. Just one place to explore the media you enjoy.
 The application and API are deployed and ready to use.
 
 | Resource | Access |
-|:--|:--|
-| **Web application** | [Launch media hub ↗](https://media-hub-ad-free.vercel.app) |
+|---|---|
+| **Web application** | [Launch media hub ↗](https://media-hub-ad-free.vercel.app/) |
 | **API documentation** | [Explore the endpoints ↗](https://media-hub-ad-free.vercel.app/api/docs) |
 | **API information** | [View API details ↗](https://media-hub-ad-free.vercel.app/api/info) |
 | **API base URL** | `https://media-hub-ad-free.vercel.app` |
@@ -189,7 +177,7 @@ https://media-hub-ad-free.vercel.app
 ### ⚡ Try an endpoint
 
 | Endpoint | What it does |
-|:--|:--|
+|---|---|
 | [`/api/docs`](https://media-hub-ad-free.vercel.app/api/docs) | API documentation |
 | [`/api/universal?q=lofi&country=GLOBAL&limit=6`](https://media-hub-ad-free.vercel.app/api/universal?q=lofi&country=GLOBAL&limit=6) | Unified discovery |
 | [`/api/youtube/search?q=lofi&limit=10`](https://media-hub-ad-free.vercel.app/api/youtube/search?q=lofi&limit=10) | YouTube search |
@@ -206,7 +194,7 @@ https://media-hub-ad-free.vercel.app
 <summary><strong>🔎 Universal discovery & extraction</strong></summary>
 
 | Route | Purpose |
-|:--|:--|
+|---|---|
 | `/api/universal` | Unified discovery |
 | `/api/all` | Discovery alias |
 | `/api/search` | Search alias |
@@ -218,7 +206,7 @@ https://media-hub-ad-free.vercel.app
 <summary><strong>▶️ YouTube</strong></summary>
 
 | Route | Purpose |
-|:--|:--|
+|---|---|
 | `/api/youtube` | Unified YouTube endpoint |
 | `/api/youtube/search` | Search content |
 | `/api/youtube/trending` | Trending content |
@@ -231,7 +219,7 @@ https://media-hub-ad-free.vercel.app
 <summary><strong>📻 Radio & television</strong></summary>
 
 | Route | Purpose |
-|:--|:--|
+|---|---|
 | `/api/radio` | Radio endpoint |
 | `/api/radio/search` | Search stations |
 | `/api/tv` | Television endpoint |
@@ -243,7 +231,7 @@ https://media-hub-ad-free.vercel.app
 <summary><strong>🎙️ Podcasts & audiobooks</strong></summary>
 
 | Route | Purpose |
-|:--|:--|
+|---|---|
 | `/api/podcasts` | Podcast endpoint |
 | `/api/podcasts/search` | Search podcasts |
 | `/api/podcasts/episodes` | Retrieve feed episodes |
@@ -257,7 +245,7 @@ https://media-hub-ad-free.vercel.app
 <summary><strong>🎵 Lyrics, metadata & subtitles</strong></summary>
 
 | Route | Purpose |
-|:--|:--|
+|---|---|
 | `/api/lyrics` | Lyrics retrieval |
 | `/api/metadata` | Metadata enrichment |
 | `/api/subtitles` | Subtitle retrieval |
@@ -268,7 +256,7 @@ https://media-hub-ad-free.vercel.app
 <summary><strong>📡 Streaming & EPG</strong></summary>
 
 | Route | Purpose |
-|:--|:--|
+|---|---|
 | `/api/stream` | Smart stream handling |
 | `/api/stream/proxy` | Media proxy |
 | `/stream/proxy` | Proxy alias |
@@ -359,7 +347,7 @@ curl -X GET \
 ## ⌨️ Keyboard shortcuts
 
 | Shortcut | Action |
-|:--|:--|
+|---|---|
 | `Space` | Play / pause |
 | `M` | Mute / unmute |
 | `L` | Toggle lyrics |
@@ -390,7 +378,7 @@ Shortcuts are ignored while focus is inside supported text-entry and selection f
 </div>
 
 | Technology | Role |
-|:--|:--|
+|---|---|
 | React 19 | User interface |
 | Vite 8 | Frontend tooling and build |
 | Tailwind CSS 4 | Styling |
@@ -503,7 +491,7 @@ media-hub/
 ```
 
 | File or directory | Responsibility |
-|:--|:--|
+|---|---|
 | `src/components/Views/` | Media pages and API Hub |
 | `src/components/` | Player controls, drawers, modals, and shared UI |
 | `src/context/PlayerContext.jsx` | Shared playback state |
