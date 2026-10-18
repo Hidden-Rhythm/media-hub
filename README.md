@@ -1,5 +1,4 @@
-
-<div align="center">
+ <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=venom&height=230&color=0:09090b,45:1e1b4b,100:6d28d9&text=media%20hub&fontColor=ffffff&fontSize=78&fontAlignY=45&desc=YOUR%20MEDIA.%20ONE%20DESTINATION.&descAlignY=68&descSize=14&animation=fadeIn" width="100%" alt="media hub"/>
 
@@ -345,6 +344,8 @@ curl -X GET \
 
 ---
 
+<a id="keyboard-shortcuts"></a>
+
 ## ⌨️ Keyboard shortcuts
 
 | Shortcut | Action |
@@ -393,6 +394,8 @@ Shortcuts are ignored while focus is inside supported text-entry and selection f
 Additional Python libraries support radio discovery, audiobook retrieval, lyrics, metadata, subtitles, and EPG functionality.
 
 ---
+
+<a id="run-locally"></a>
 
 ## 💻 Run locally
 
