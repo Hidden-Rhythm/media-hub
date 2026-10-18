@@ -1,175 +1,175 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:09090b,40:312e81,100:7c3aed&text=media%20hub&fontColor=ffffff&fontSize=76&fontAlignY=48&desc=ONE%20PLATFORM.%20YOUR%20ENTIRE%20MEDIA%20WORLD.&descAlignY=70&descSize=13&animation=fadeIn" width="100%" alt="media hub"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=230&color=0:09090b,45:1e1b4b,100:6d28d9&text=media%20hub&fontColor=ffffff&fontSize=78&fontAlignY=45&desc=YOUR%20MEDIA.%20ONE%20DESTINATION.&descAlignY=68&descSize=14&animation=fadeIn" width="100%" alt="media hub"/>
 
-<br>
+<br/>
 
 <p>
   <a href="https://media-hub-ad-free.vercel.app">
-    <img src="https://img.shields.io/badge/OPEN%20APP-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Open application"/>
+    <img src="https://img.shields.io/badge/Explore%20the%20App-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Explore the app"/>
   </a>
   <a href="https://media-hub-ad-free.vercel.app/api/docs">
-    <img src="https://img.shields.io/badge/LIVE%20API-10B981?style=for-the-badge&logo=fastapi&logoColor=white" alt="Live API"/>
+    <img src="https://img.shields.io/badge/API%20Documentation-059669?style=for-the-badge&logo=fastapi&logoColor=white" alt="API documentation"/>
   </a>
   <a href="https://github.com/Hidden-Rhythm/media-hub">
-    <img src="https://img.shields.io/badge/SOURCE-GITHUB-18181B?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repository"/>
+    <img src="https://img.shields.io/badge/Source%20Code-18181B?style=for-the-badge&logo=github&logoColor=white" alt="Source code"/>
   </a>
 </p>
 
 <p>
-  <strong>A unified destination for discovering and playing media.</strong>
-  <br>
-  Music · Radio · Television · Video · Podcasts · Audiobooks
+  <strong>One interface. Multiple worlds of entertainment.</strong>
+  <br/>
+  <sub>Discover · Listen · Watch · Explore</sub>
 </p>
 
 <p>
-  <a href="#overview">Overview</a> ·
-  <a href="#features">Features</a> ·
-  <a href="#live-api">API</a> ·
-  <a href="#keyboard-shortcuts">Shortcuts</a> ·
-  <a href="#local-setup">Local setup</a> ·
-  <a href="#architecture">Architecture</a>
+  <a href="#-about">About</a> ·
+  <a href="#-what-you-can-do">Features</a> ·
+  <a href="#-the-api">API</a> ·
+  <a href="#-keyboard-shortcuts">Shortcuts</a> ·
+  <a href="#-run-locally">Setup</a>
 </p>
 
 </div>
 
 ---
 
-## Overview
+## ✦ About
 
-**media hub** brings multiple entertainment sources into one interface, combining media discovery, playback, and a public API in a single project.
+**media hub** is a unified media discovery and playback platform built to bring different entertainment sources into one place.
 
-Built with React and Python, it provides dedicated experiences for music, internet radio, live television, YouTube, podcasts, audiobooks, and direct media URLs. Shared playback controls, favourites, lyrics, and personalisation features make the experience consistent across supported sources.
+From internet radio and live television to YouTube, podcasts, audiobooks, and direct media URLs, the application combines dedicated browsing experiences with shared playback controls and a Python-powered API.
 
-The application is already deployed. You can use the website or integrate the public API into your own projects without setting up a local development environment.
+No unnecessary complexity. Just one place to explore the media you enjoy.
+
+<div align="center">
+
+| 🌐 One destination | 🎧 Shared playback | 🔌 Developer-ready |
+|:---:|:---:|:---:|
+| Multiple media categories | A consistent listening and viewing experience | A public API for integrations |
+
+</div>
+
+## 🌌 Live application
+
+The application and API are deployed and ready to use.
+
+| Resource | Access |
+|:--|:--|
+| **Web application** | [Launch media hub ↗](https://media-hub-ad-free.vercel.app) |
+| **API documentation** | [Explore the endpoints ↗](https://media-hub-ad-free.vercel.app/api/docs) |
+| **API information** | [View API details ↗](https://media-hub-ad-free.vercel.app/api/info) |
+| **API base URL** | `https://media-hub-ad-free.vercel.app` |
+
+> 🚀 **Ready when you are.** The live application requires no local installation, development server, or setup.
+
+---
+
+## ✨ What you can do
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ◈ Unified discovery
+### 🎬 Video & discovery
 
-Explore supported media sources through one interface instead of switching between separate applications.
+- Search supported YouTube content.
+- Explore trending and live videos.
+- Discover media across supported categories.
+- Extract media information from supported URLs.
+- Play compatible direct and HLS streams.
 
 </td>
 <td width="50%" valign="top">
 
-### ⌘ Public API
+### 📻 Internet radio
 
-Access media discovery and related endpoints through the deployed API.
+- Search stations by name.
+- Filter by country and genre.
+- Explore regional and international stations.
+- Listen to compatible live broadcasts.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### ▶ Shared playback
+### 📺 Live television
 
-A common player with queue management, favourites, lyrics, and playback controls.
+- Browse supported TV channels.
+- Filter by country and category.
+- Explore bundled channel data.
+- Retrieve programme information through EPG endpoints.
 
 </td>
 <td width="50%" valign="top">
-
-### ◉ Modular architecture
-
-A React frontend paired with a Flask backend and provider-based integrations.
-
-</td>
-</tr>
-</table>
-
-## Live application
-
-<div align="center">
-
-| Service | Link |
-|:--|:--|
-| Web application | [media-hub-ad-free.vercel.app](https://media-hub-ad-free.vercel.app) |
-| API base URL | [Open API](https://media-hub-ad-free.vercel.app/api) |
-| API documentation | [Explore endpoints](https://media-hub-ad-free.vercel.app/api/docs) |
-| API information | [View API information](https://media-hub-ad-free.vercel.app/api/info) |
-
-</div>
-
-**No installation is required to use the deployed application.** Open the website and start exploring.
-
----
-
-## Features
-
-### 🎬 Video and universal media
-
-- Search supported YouTube content.
-- Explore trending and live video results.
-- Discover content across multiple supported media categories.
-- Extract media information from supported URLs.
-- Handle supported direct audio, video, and HLS streams.
-- Access media through dedicated views and a unified discovery experience.
-
-### 📻 Internet radio
-
-- Search radio stations by name.
-- Filter stations by country and genre.
-- Browse supported international and regional stations.
-- Play compatible live radio streams.
-
-### 📺 Live television
-
-- Browse supported television channels.
-- Filter channels by country, category, and search query.
-- Use bundled channel data.
-- Retrieve electronic programme guide information through the API.
 
 ### 🎙️ Podcasts
 
 - Search podcast collections.
 - Explore region-based results.
-- Retrieve episodes from supported RSS feeds.
-- Browse and play available podcast episodes.
+- Retrieve episodes from RSS feeds.
+- Browse and play available episodes.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 📚 Audiobooks
 
-- Search available audiobook collections.
-- Explore supported regions and categories.
+- Search available collections.
+- Explore supported categories and regions.
 - Retrieve chapter information.
 - Browse audiobooks through a dedicated interface.
 
-### 🎧 Playback experience
+</td>
+<td width="50%" valign="top">
 
-- Shared play and pause controls.
-- Volume adjustment and seeking.
+### 🎵 Lyrics & metadata
+
+- Retrieve song lyrics.
+- Enrich media with metadata.
+- Retrieve supported subtitles.
+- Access electronic programme guide information.
+
+</td>
+</tr>
+</table>
+
+### 🎧 A player that brings it together
+
+The shared playback experience includes:
+
+- Play, pause, seeking, and volume controls.
 - Playback queue and queue drawer.
 - Favourites management.
 - Lyrics drawer.
 - Video overlay and fullscreen support.
 - Picture-in-picture where supported.
 - Sleep timer.
-- Playback-related preferences.
+- Playback preferences.
 
-### 🎨 Personalisation
+### 🎨 Make it yours
 
 - Theme selection.
 - Dedicated settings page.
 - Keyboard shortcuts.
 - Recent universal-media history.
-- Browser-side storage for supported preferences.
+- Browser-stored preferences where implemented.
 
-### 🔎 Media information
+### 🔌 Built-in API Hub
 
-- Lyrics retrieval.
-- Media metadata enrichment.
-- Subtitle retrieval.
-- Electronic programme guide integration.
-- Dedicated API Hub for exploring available endpoints.
+Explore the project's API through the dedicated API Hub view, or connect directly to the deployed endpoints from your own application.
 
-> **Availability note:** Media sources and stream compatibility depend on upstream providers, regional restrictions, and browser support. Third-party services can change independently of this project.
+<sub>Media availability and playback compatibility depend on upstream providers, regional restrictions, and browser support.</sub>
 
 ---
 
-## Live API
+## 🔌 The API
 
-The public API is deployed alongside the application.
+The public API exposes endpoints for media discovery, supported content extraction, streaming, and related metadata.
 
 **Base URL**
 
@@ -177,109 +177,100 @@ The public API is deployed alongside the application.
 https://media-hub-ad-free.vercel.app
 ```
 
-### Quick endpoint reference
+### ⚡ Try an endpoint
 
-| Endpoint | Purpose |
+| Endpoint | What it does |
 |:--|:--|
 | [`/api/docs`](https://media-hub-ad-free.vercel.app/api/docs) | API documentation |
-| [`/api/info`](https://media-hub-ad-free.vercel.app/api/info) | API information |
-| [`/api/universal?q=lofi&country=GLOBAL&limit=6`](https://media-hub-ad-free.vercel.app/api/universal?q=lofi&country=GLOBAL&limit=6) | Unified media discovery |
+| [`/api/universal?q=lofi&country=GLOBAL&limit=6`](https://media-hub-ad-free.vercel.app/api/universal?q=lofi&country=GLOBAL&limit=6) | Unified discovery |
 | [`/api/youtube/search?q=lofi&limit=10`](https://media-hub-ad-free.vercel.app/api/youtube/search?q=lofi&limit=10) | YouTube search |
-| [`/api/youtube/trending?limit=10`](https://media-hub-ad-free.vercel.app/api/youtube/trending?limit=10) | Trending content |
+| [`/api/youtube/trending?limit=10`](https://media-hub-ad-free.vercel.app/api/youtube/trending?limit=10) | Trending videos |
 | [`/api/youtube/live?limit=10`](https://media-hub-ad-free.vercel.app/api/youtube/live?limit=10) | Live video results |
-| [`/api/radio/search?name=jazz&country=GLOBAL&limit=10`](https://media-hub-ad-free.vercel.app/api/radio/search?name=jazz&country=GLOBAL&limit=10) | Radio station search |
+| [`/api/radio/search?name=jazz&country=GLOBAL&limit=10`](https://media-hub-ad-free.vercel.app/api/radio/search?name=jazz&country=GLOBAL&limit=10) | Radio search |
 | [`/api/tv/channels?country=IN`](https://media-hub-ad-free.vercel.app/api/tv/channels?country=IN) | TV channel data |
 | [`/api/podcasts/search?q=technology&country=GLOBAL&limit=10`](https://media-hub-ad-free.vercel.app/api/podcasts/search?q=technology&country=GLOBAL&limit=10) | Podcast search |
 | [`/api/audiobooks/search?q=sherlock&region=global&limit=10`](https://media-hub-ad-free.vercel.app/api/audiobooks/search?q=sherlock&region=global&limit=10) | Audiobook search |
 
-### Endpoint catalogue
+### 🗂️ Endpoint reference
 
 <details>
-<summary><strong>🔎 Universal discovery and media extraction</strong></summary>
+<summary><strong>🔎 Universal discovery & extraction</strong></summary>
 
-| Endpoint | Description |
+| Route | Purpose |
 |:--|:--|
-| `/api/universal` | Search supported media sources together |
-| `/api/all` | Alias for universal discovery |
-| `/api/search` | Alias for universal discovery |
-| `/api/universal/play` | Extract supported media information from a URL |
-
-Universal discovery accepts parameters such as `q`, `sources`, `country`, `limit`, and `url`. Direct URL extraction can also accept a `quality` parameter.
+| `/api/universal` | Unified discovery |
+| `/api/all` | Discovery alias |
+| `/api/search` | Search alias |
+| `/api/universal/play` | Resolve supported media URLs |
 
 </details>
 
 <details>
-<summary><strong>▶ YouTube</strong></summary>
+<summary><strong>▶️ YouTube</strong></summary>
 
-| Endpoint | Description |
+| Route | Purpose |
 |:--|:--|
 | `/api/youtube` | Unified YouTube endpoint |
-| `/api/youtube/search` | Search videos |
-| `/api/youtube/trending` | Retrieve trending results |
-| `/api/youtube/live` | Retrieve live results |
-| `/api/youtube/extract` | Extract supported media information |
-
-Common parameters include `q`, `cat`, `sort`, `limit`, `url`, and `quality`, depending on the endpoint.
+| `/api/youtube/search` | Search content |
+| `/api/youtube/trending` | Trending content |
+| `/api/youtube/live` | Live content |
+| `/api/youtube/extract` | Extract media information |
 
 </details>
 
 <details>
-<summary><strong>📻 Radio and television</strong></summary>
+<summary><strong>📻 Radio & television</strong></summary>
 
-| Endpoint | Description |
+| Route | Purpose |
 |:--|:--|
-| `/api/radio` | Radio search alias |
-| `/api/radio/search` | Search radio stations |
-| `/api/tv` | TV channel endpoint |
+| `/api/radio` | Radio endpoint |
+| `/api/radio/search` | Search stations |
+| `/api/tv` | Television endpoint |
 | `/api/tv/channels` | Retrieve and filter channels |
 
-Radio search supports parameters including `name`, `q`, `country`, `tag`, and `limit`. TV endpoints support country and channel filtering parameters.
-
 </details>
 
 <details>
-<summary><strong>🎙️ Podcasts and audiobooks</strong></summary>
+<summary><strong>🎙️ Podcasts & audiobooks</strong></summary>
 
-| Endpoint | Description |
+| Route | Purpose |
 |:--|:--|
-| `/api/podcasts` | Podcast search or feed episodes |
+| `/api/podcasts` | Podcast endpoint |
 | `/api/podcasts/search` | Search podcasts |
-| `/api/podcasts/episodes` | Retrieve episodes from a feed |
-| `/api/audiobooks` | Audiobook search or chapter lookup |
+| `/api/podcasts/episodes` | Retrieve feed episodes |
+| `/api/audiobooks` | Audiobook endpoint |
 | `/api/audiobooks/search` | Search audiobooks |
-| `/api/audiobooks/chapters` | Retrieve audiobook chapters |
+| `/api/audiobooks/chapters` | Retrieve chapters |
 
 </details>
 
 <details>
-<summary><strong>🎵 Lyrics, metadata and subtitles</strong></summary>
+<summary><strong>🎵 Lyrics, metadata & subtitles</strong></summary>
 
-| Endpoint | Description |
+| Route | Purpose |
 |:--|:--|
-| `/api/lyrics` | Retrieve lyrics |
-| `/api/metadata` | Enrich media metadata |
-| `/api/subtitles` | Retrieve available subtitles |
-
-The metadata endpoint accepts a media URL and can accept a `tmdb_key`. Subtitle retrieval supports a configurable language list.
+| `/api/lyrics` | Lyrics retrieval |
+| `/api/metadata` | Metadata enrichment |
+| `/api/subtitles` | Subtitle retrieval |
 
 </details>
 
 <details>
-<summary><strong>📡 Streaming and programme guides</strong></summary>
+<summary><strong>📡 Streaming & EPG</strong></summary>
 
-| Endpoint | Description |
+| Route | Purpose |
 |:--|:--|
 | `/api/stream` | Smart stream handling |
-| `/api/stream/proxy` | Proxy supported media streams |
-| `/stream/proxy` | Stream proxy alias |
+| `/api/stream/proxy` | Media proxy |
+| `/stream/proxy` | Proxy alias |
 | `/api/stream/hls` | HLS playlist handling |
-| `/stream/hls` | HLS endpoint alias |
-| `/api/epg/load` | Load XMLTV programme data |
-| `/api/epg/now` | Retrieve current and upcoming programme information |
+| `/stream/hls` | HLS alias |
+| `/api/epg/load` | Load XMLTV data |
+| `/api/epg/now` | Current and upcoming programme information |
 
 </details>
 
-For the exact parameters and live response formats, use the [deployed API documentation](https://media-hub-ad-free.vercel.app/api/docs).
+For endpoint-specific parameters, accepted values, and response structures, refer to the [live API documentation](https://media-hub-ad-free.vercel.app/api/docs).
 
 ### Example · Python
 
@@ -304,7 +295,7 @@ data = response.json()
 print(data)
 ```
 
-Install the HTTP client if necessary:
+Install the dependency if needed:
 
 ```bash
 pip install requests
@@ -333,8 +324,7 @@ async function searchMedia(query) {
   return response.json();
 }
 
-const results = await searchMedia("lofi");
-console.log(results);
+console.log(await searchMedia("lofi"));
 ```
 
 ### Example · cURL
@@ -345,36 +335,36 @@ curl -X GET \
   -H "Accept: application/json"
 ```
 
-### API integration guidelines
+### Integration notes
 
-- Use the deployed base URL for live requests.
-- Encode query parameters properly.
-- Handle failed requests and empty results.
-- Allow for upstream provider errors and changing stream URLs.
-- Check the relevant endpoint documentation before building integrations.
+- Use the deployed URL for live requests.
+- Encode query parameters correctly.
+- Handle HTTP errors, timeouts, and empty results.
+- Account for changes in third-party providers and media URLs.
+- Consult the live documentation for exact endpoint behaviour.
 
 ---
 
-## Keyboard shortcuts
+## ⌨️ Keyboard shortcuts
 
 | Shortcut | Action |
 |:--|:--|
-| `Space` | Play or pause |
-| `M` | Mute or unmute |
+| `Space` | Play / pause |
+| `M` | Mute / unmute |
 | `L` | Toggle lyrics |
 | `T` | Cycle themes |
-| `Shift + /` | Open keyboard shortcuts |
-| `F` | Open video overlay when applicable; otherwise fullscreen |
+| `Shift + /` | Open shortcut reference |
+| `F` | Video overlay when available; otherwise fullscreen |
 | `F11` | Toggle fullscreen |
 | `P` | Picture-in-picture |
-| `←` / `→` | Seek backward or forward by 5 seconds |
+| `←` / `→` | Seek by 5 seconds |
 | `↑` / `↓` | Adjust volume by 5% |
 
-Shortcuts are ignored while typing in supported input, selection, and text-entry fields.
+Shortcuts are ignored while focus is inside supported text-entry and selection fields.
 
 ---
 
-## Technology stack
+## 🧰 Built with
 
 <div align="center">
 
@@ -390,26 +380,25 @@ Shortcuts are ignored while typing in supported input, selection, and text-entry
 
 | Technology | Role |
 |:--|:--|
-| React 19 | Frontend interface |
-| Vite 8 | Frontend build tooling |
+| React 19 | User interface |
+| Vite 8 | Frontend tooling and build |
 | Tailwind CSS 4 | Styling |
-| Python | Backend logic and provider integrations |
-| Flask | HTTP API and application server |
+| Python & Flask | Backend and API |
 | HLS.js | HLS playback support |
-| Lucide React | Interface icons |
+| Lucide React | Icons |
 | yt-dlp | Supported media extraction |
 | Feedparser | Podcast feed processing |
-| Vercel | Deployment platform |
+| Vercel | Deployment |
 
-Additional Python dependencies provide radio discovery, audiobook retrieval, lyrics, metadata, subtitles, and electronic programme guide functionality.
+Additional Python libraries support radio discovery, audiobook retrieval, lyrics, metadata, subtitles, and EPG functionality.
 
 ---
 
-## Local setup
+## 💻 Run locally
 
-The deployed website and API are already available online. **You do not need to install anything or run development commands to use the live application.**
+The live website and API are already deployed. **You do not need to run development commands to use the online application.**
 
-The following steps are only for setting up the source code on your own machine.
+These steps are only for running the source code on your own computer.
 
 ### Requirements
 
@@ -425,14 +414,14 @@ git clone https://github.com/Hidden-Rhythm/media-hub.git
 cd media-hub
 ```
 
-### 2. Install frontend dependencies and build the frontend
+### 2. Install frontend dependencies and build
 
 ```bash
 npm install
 npm run build
 ```
 
-This generates the `dist/` directory required by the Flask application to serve the built frontend.
+The build generates `dist/`, which the Flask application uses to serve the frontend.
 
 ### 3. Install Python dependencies
 
@@ -440,33 +429,33 @@ This generates the `dist/` directory required by the Flask application to serve 
 pip install -r requirements.txt
 ```
 
-### 4. Start the application
+### 4. Start media hub
 
 ```bash
 python app.py
 ```
 
-Open:
+Open the local address:
 
 ```text
 http://127.0.0.1:5000
 ```
 
-**That's the startup command:** once the frontend has been built and dependencies are installed, start the complete local application with `python app.py`. You do not need to start a separate Vite development server for this workflow.
+Once dependencies are installed and the frontend has been built, **`python app.py` is the startup command** for this workflow. A separate Vite development server is not required.
 
 ### Optional configuration
 
-The repository includes `.env.example` with an optional TMDB configuration value:
+The `.env.example` file documents the optional TMDB key:
 
 ```env
 TMDB_KEY=your_tmdb_api_key
 ```
 
-A TMDB key is not required for every feature. Configure it only if you need metadata functionality that depends on it. Keep private credentials out of committed source code.
+Only configure it if you need metadata functionality that depends on TMDB. Keep private credentials out of committed source code.
 
 ---
 
-## Architecture
+## 🏗️ Project architecture
 
 ```text
 media-hub/
@@ -500,48 +489,46 @@ media-hub/
 └── .env.example
 ```
 
-### How the application is organised
-
-| Component | Responsibility |
+| File or directory | Responsibility |
 |:--|:--|
-| `src/components/Views/` | Dedicated media pages and API Hub |
+| `src/components/Views/` | Media pages and API Hub |
 | `src/components/` | Player controls, drawers, modals, and shared UI |
 | `src/context/PlayerContext.jsx` | Shared playback state |
 | `providers.py` | Media provider integrations |
 | `epg.py` | Electronic programme guide functionality |
-| `app.py` | Flask application, frontend routes, API endpoints, and streaming handlers |
+| `app.py` | Flask application, frontend routes, API, and streaming handlers |
 | `api/index.py` | Vercel backend entry point |
-| `vite.config.js` | Frontend build configuration and local development proxy |
+| `vite.config.js` | Frontend build and local proxy configuration |
 
 ---
 
-## Reliability and configuration
+## ⚙️ Reliability & configuration
 
-- **Provider availability:** External services can change their responses, URLs, and access policies.
-- **Playback compatibility:** Some media formats or streams may not work in every browser.
-- **Browser storage:** Supported preferences and recent media history can be stored locally.
+- **Provider availability:** External sources can change their endpoints, results, or access policies.
+- **Playback compatibility:** Not every stream works in every browser.
+- **Browser preferences:** Supported settings and recent media history may be stored locally.
 - **Optional credentials:** Certain metadata features may require additional configuration.
-- **API consumers:** Use timeouts and handle unsuccessful responses appropriately.
+- **API integrations:** Use timeouts and handle failed requests gracefully.
 
 ---
 
 <div align="center">
 
-## Explore media hub
+## Ready to explore?
 
-Discover the application or build something with the API.
+Experience media hub or start building with its API.
 
-<br>
+<br/>
 
 <a href="https://media-hub-ad-free.vercel.app">
-  <img src="https://img.shields.io/badge/LAUNCH-Open%20media%20hub-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Launch media hub"/>
+  <img src="https://img.shields.io/badge/OPEN%20MEDIA%20HUB-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Open media hub"/>
 </a>
 <a href="https://media-hub-ad-free.vercel.app/api/docs">
-  <img src="https://img.shields.io/badge/API-Read%20Documentation-10B981?style=for-the-badge&logo=fastapi&logoColor=white" alt="API documentation"/>
+  <img src="https://img.shields.io/badge/EXPLORE%20THE%20API-059669?style=for-the-badge&logo=fastapi&logoColor=white" alt="Explore the API"/>
 </a>
 
-<br><br>
+<br/><br/>
 
-<sub>Built by <a href="https://github.com/Hidden-Rhythm">hidden_rhythm</a></sub>
+<sub>Crafted by <a href="https://github.com/Hidden-Rhythm">hidden_rhythm</a></sub>
 
 </div>
